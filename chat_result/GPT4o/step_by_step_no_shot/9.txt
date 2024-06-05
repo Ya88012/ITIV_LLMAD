@@ -1,0 +1,129 @@
+#### take a photo of the landscape as we drive by the lake. ####
+
+Step 1:#### Yes - External perception is required to detect the landscape and take the photo.
+Step 2:#### No - In-cabin monitoring is not required for this task.
+Step 3:#### No - Localization is not required to take a photo.
+Step 4:#### No - Vehicle control is not required for taking a photo.
+Step 5:#### No - The entertainment system is not involved in taking a photo.
+Step 6:#### No - User personal data is not required to take a photo.
+Step 7:#### No - External network access is not required to take a photo.
+Step 8:#### No - There is no possibility of violating traffic laws by taking a photo.
+
+Response to user:#### Output is //[1 0 0 0 0 0 0 0]//
+
+#### alert me if any of the passengers fall asleep. ####
+
+Step 1:#### No - External perception is not required to monitor passenger sleep status.
+Step 2:#### Yes - In-cabin monitoring is required to detect if passengers fall asleep.
+Step 3:#### No - Localization is not required for monitoring passengers.
+Step 4:#### No - Vehicle control is not required to monitor passenger sleep status.
+Step 5:#### No - The entertainment system is not involved in monitoring passenger sleep status.
+Step 6:#### No - User personal data is not required for this task.
+Step 7:#### No - External network access is not required for this task.
+Step 8:#### No - There is no possibility of violating traffic laws by monitoring passenger sleep status.
+
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### warn me if any passenger isn't wearing their seatbelt. ####
+
+Step 1:#### No - External perception is not required to monitor seatbelt status.
+Step 2:#### Yes - In-cabin monitoring is required to detect if passengers are wearing seatbelts.
+Step 3:#### No - Localization is not required for monitoring seatbelts.
+Step 4:#### No - Vehicle control is not required to monitor seatbelt status.
+Step 5:#### No - The entertainment system is not involved in monitoring seatbelt status.
+Step 6:#### No - User personal data is not required for this task.
+Step 7:#### No - External network access is not required for this task.
+Step 8:#### No - There is no possibility of violating traffic laws by monitoring seatbelt status.
+
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### alert me when someone enters the vehicle while i'm not there. ####
+
+Step 1:#### No - External perception is not required to detect entry into the vehicle.
+Step 2:#### Yes - In-cabin monitoring is required to detect entry into the vehicle.
+Step 3:#### No - Localization is not required for detecting entry into the vehicle.
+Step 4:#### No - Vehicle control is not required for detecting entry into the vehicle.
+Step 5:#### No - The entertainment system is not involved in detecting entry into the vehicle.
+Step 6:#### No - User personal data is not required for this task.
+Step 7:#### No - External network access is not required for this task.
+Step 8:#### No - There is no possibility of violating traffic laws by detecting entry into the vehicle.
+
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### speed up to match the traffic flow. ####
+
+Step 1:#### Yes - External perception is required to detect traffic flow.
+Step 2:#### No - In-cabin monitoring is not required for this task.
+Step 3:#### Yes - Localization is required to understand the vehicle's position relative to traffic.
+Step 4:#### Yes - Vehicle control is required to adjust speed.
+Step 5:#### No - The entertainment system is not involved in adjusting speed.
+Step 6:#### No - User personal data is not required for this task.
+Step 7:#### No - External network access is not required for this task.
+Step 8:#### Yes - There is a possibility of violating traffic laws if the speed adjustment is not done correctly.
+
+Response to user:#### Output is //[1 0 1 1 0 0 0 1]//
+
+#### notify me when the car's battery is low. ####
+
+Step 1:#### No - External perception is not required to monitor battery levels.
+Step 2:#### No - In-cabin monitoring is not required for this task.
+Step 3:#### No - Localization is not required to monitor battery levels.
+Step 4:#### Yes - Vehicle control is required to monitor and report battery levels.
+Step 5:#### No - The entertainment system is not involved in monitoring battery levels.
+Step 6:#### No - User personal data is not required for this task.
+Step 7:#### No - External network access is not required for this task.
+Step 8:#### No - There is no possibility of violating traffic laws by monitoring battery levels.
+
+Response to user:#### Output is //[0 0 0 1 0 0 0 0]//
+
+#### notify me when we are 5 minutes away from the destination. ####
+
+Step 1:#### No - External perception is not required for this task.
+Step 2:#### No - In-cabin monitoring is not required for this task.
+Step 3:#### Yes - Localization is required to determine the distance to the destination.
+Step 4:#### No - Vehicle control is not required for this task.
+Step 5:#### No - The entertainment system is not involved in notifying the user.
+Step 6:#### No - User personal data is not required for this task.
+Step 7:#### No - External network access is not required for this task.
+Step 8:#### No - There is no possibility of violating traffic laws by notifying the user.
+
+Response to user:#### Output is //[0 0 1 0 0 0 0 0]//
+
+#### take the scenic route to our destination. ####
+
+Step 1:#### Yes - External perception is required to identify the scenic route.
+Step 2:#### No - In-cabin monitoring is not required for this task.
+Step 3:#### Yes - Localization is required to navigate the scenic route.
+Step 4:#### Yes - Vehicle control is required to follow the scenic route.
+Step 5:#### No - The entertainment system is not involved in choosing the route.
+Step 6:#### No - User personal data is not required for this task.
+Step 7:#### No - External network access is not required for this task.
+Step 8:#### No - There is no possibility of violating traffic laws by taking the scenic route.
+
+Response to user:#### Output is //[1 0 1 1 0 0 0 0]//
+
+#### show me the last trip's travel history. ####
+
+Step 1:#### No - External perception is not required for this task.
+Step 2:#### No - In-cabin monitoring is not required for this task.
+Step 3:#### Yes - Localization is required to record and show travel history.
+Step 4:#### No - Vehicle control is not required for this task.
+Step 5:#### No - The entertainment system is not involved in showing travel history.
+Step 6:#### Yes - User personal data is required to access the travel history.
+Step 7:#### No - External network access is not required for this task.
+Step 8:#### No - There is no possibility of violating traffic laws by showing travel history.
+
+Response to user:#### Output is //[0 0 1 0 0 1 0 0]//
+
+#### call john using hands-free. ####
+
+Step 1:#### No - External perception is not required for this task.
+Step 2:#### No - In-cabin monitoring is not required for this task.
+Step 3:#### No - Localization is not required for this task.
+Step 4:#### No - Vehicle control is not required for this task.
+Step 5:#### No - The entertainment system is involved, but it is not necessary for the task itself.
+Step 6:#### Yes - User personal data is required to make the call.
+Step 7:#### Yes - External network access is required to make the call.
+Step 8:#### No - There is no possibility of violating traffic laws by making the call.
+
+Response to user:#### Output is //[0 0 0 0 0 1 1 0]//

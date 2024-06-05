@@ -1,0 +1,129 @@
+#### emergency stop. ####
+
+Step 1:#### Yes, the external perception system is required to detect the surroundings and ensure safe stopping.
+Step 2:#### No, in-cabin monitoring is not required for stopping the vehicle.
+Step 3:#### Yes, localization is required to determine the vehicle's current position.
+Step 4:#### Yes, vehicle control is required to physically stop the vehicle.
+Step 5:#### No, the entertainment system is not needed.
+Step 6:#### No, user personal data is not needed.
+Step 7:#### No, external network access is not needed.
+Step 8:#### Yes, there is a possibility of violating traffic laws if the stop is not handled correctly.
+
+Response to user:#### Output is //[1 0 1 1 0 0 0 1]//.
+
+#### navigate to the places i visited most last month. ####
+
+Step 1:#### Yes, the external perception system is required for navigation.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### Yes, localization is required to determine the current position and navigate to the destinations.
+Step 4:#### Yes, vehicle control is required to drive the vehicle.
+Step 5:#### No, the entertainment system is not needed.
+Step 6:#### Yes, user personal data is required to access the travel history.
+Step 7:#### Yes, external network access is required to access cloud services and maps.
+Step 8:#### No, there should not be a risk of violating traffic laws under normal navigation conditions.
+
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//.
+
+#### send a text message to john saying "i'm on my way." ####
+
+Step 1:#### No, the external perception system is not required.
+Step 2:#### Yes, in-cabin monitoring is required to use the multimedia system for sending a text.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### Yes, the entertainment system (multimedia) is required.
+Step 6:#### Yes, user personal data is required to send the text message.
+Step 7:#### Yes, external network access is required to send the text.
+Step 8:#### No, there is no risk of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//.
+
+#### take me to the address saved in my contact list as 'home'. ####
+
+Step 1:#### Yes, the external perception system is required for driving.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### Yes, localization is required to determine the current position and navigate.
+Step 4:#### Yes, vehicle control is required to drive the vehicle.
+Step 5:#### No, the entertainment system is not needed.
+Step 6:#### Yes, user personal data is required to access the contact list.
+Step 7:#### Yes, external network access is required for navigation.
+Step 8:#### No, there should not be a risk of violating traffic laws under normal driving conditions.
+
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//.
+
+#### set my home address as the destination. ####
+
+Step 1:#### No, the external perception system is not required for setting a destination.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### Yes, localization is required to set the navigation route.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### No, the entertainment system is not needed.
+Step 6:#### Yes, user personal data is required to access the home address.
+Step 7:#### Yes, external network access is required for setting the destination in the navigation system.
+Step 8:#### No, there should not be a risk of violating traffic laws.
+
+Response to user:#### Output is //[0 0 1 0 0 1 1 0]//.
+
+#### alert me when we're 10 minutes away from destination. ####
+
+Step 1:#### Yes, the external perception system is required to monitor the driving progress.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### Yes, localization is required to calculate the remaining time to the destination.
+Step 4:#### Yes, vehicle control is required to manage the driving progress.
+Step 5:#### No, the entertainment system is not needed.
+Step 6:#### No, user personal data is not required.
+Step 7:#### Yes, external network access is required to access maps and traffic information.
+Step 8:#### No, there should not be a risk of violating traffic laws.
+
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//.
+
+#### turn on the radio to station 95.5 fm. ####
+
+Step 1:#### No, the external perception system is not required.
+Step 2:#### Yes, in-cabin monitoring is required to interact with the multimedia system.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### Yes, the entertainment system is required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not required.
+Step 8:#### No, there is no risk of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 0 0 0]//.
+
+#### show me the backseat view on screen. ####
+
+Step 1:#### Yes, the external perception system is required to capture the backseat view.
+Step 2:#### Yes, in-cabin monitoring is required to display the view.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not required.
+Step 8:#### No, there is no risk of violating traffic laws.
+
+Response to user:#### Output is //[1 1 0 0 0 0 0 0]//.
+
+#### show me the quickest route to the nearest gas station. ####
+
+Step 1:#### Yes, the external perception system is required for navigation.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### Yes, localization is required to determine the current position and find the nearest gas station.
+Step 4:#### No, vehicle control is not required just to show the route.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### Yes, external network access is required to access maps and traffic information.
+Step 8:#### No, there should not be a risk of violating traffic laws.
+
+Response to user:#### Output is //[1 0 1 0 0 0 1 0]//.
+
+#### take the kids to school and return home. ####
+
+Step 1:#### Yes, the external perception system is required for driving.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### Yes, localization is required to navigate to the school and then home.
+Step 4:#### Yes, vehicle control is required to drive the vehicle.
+Step 5:#### No, the entertainment system is not needed.
+Step 6:#### Yes, user personal data is required to access the destinations.
+Step 7:#### Yes, external network access is required for navigation.
+Step 8:#### No, there should not be a risk of violating traffic laws under normal driving conditions.
+
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//.

@@ -1,0 +1,133 @@
+Here are the evaluations for the given commands based on the provided steps:
+
+#### drive to bob's house. ####
+Explanation:
+External Perception system: Yes, driving requires sensors to perceive surroundings.
+In-cabin monitoring: No, it doesn't involve monitoring inside the vehicle's cabin.
+Localization: Yes, the vehicle needs to know its position to navigate to the destination.
+Vehicle control: Yes, controlling the vehicle is necessary for driving.
+Entertainment: No, this command is unrelated to entertainment systems.
+Personal data: Yes, "Bob" could imply a personal contact, assuming stored data.
+Network access: Yes, may need to access the internet for the address or optimal route.
+Traffic laws: No, a standard driving command should adhere to traffic laws.
+
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### drive to a less crowded area. ####
+Explanation:
+External Perception system: Yes, sensors are needed to detect surrounding traffic conditions.
+In-cabin monitoring: No, nothing related to the in-cabin conditions.
+Localization: Yes, requires knowledge of location to find a less crowded area.
+Vehicle control: Yes, involves controlling the vehicle to navigate.
+Entertainment: No, unrelated to the multimedia system.
+Personal data: No, does not involve identifiable personal data.
+Network access: Yes, might need real-time traffic data from the internet.
+Traffic laws: No, should comply with traffic laws.
+
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### rapidly accelerate for fun. ####
+Explanation:
+External Perception system: Yes, requires sensors to ensure safety during rapid acceleration.
+In-cabin monitoring: No, not specifically related to monitoring inside the cabin.
+Localization: No, does not need specific location data for acceleration.
+Vehicle control: Yes, involves controlling the vehicle’s speed.
+Entertainment: No, not an entertainment command.
+Personal data: No, does not involve personal data.
+Network access: No, no internet access required for this action.
+Traffic laws: Yes, rapid acceleration could potentially violate speed limits.
+
+Output is //[1 0 0 1 0 0 0 1]//
+
+#### take me to the nearest mcdonald's. ####
+Explanation:
+External Perception system: Yes, needs to perceive surroundings while driving.
+In-cabin monitoring: No, unrelated to monitoring conditions inside the cabin.
+Localization: Yes, requires navigation to locate and route to the destination.
+Vehicle control: Yes, vehicle movement control is necessary.
+Entertainment: No, not related to multimedia.
+Personal data: No, no specific personal data required.
+Network access: Yes, may need internet access for location and routing.
+Traffic laws: No, standard driving should comply with traffic laws.
+
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### turn on the rear-view camera. ####
+Explanation:
+External Perception system: No, turning on the camera does not involve external perception of surroundings.
+In-cabin monitoring: Yes, involves the use of an in-cabin camera.
+Localization: No, no location data required.
+Vehicle control: No, not related to vehicle movement control.
+Entertainment: No, the rear-view camera is not part of the entertainment system.
+Personal data: No, does not involve personal data.
+Network access: No, does not require internet access.
+Traffic laws: No, does not involve traffic law violations.
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### switch off all internal lights. ####
+Explanation:
+External Perception system: No, not related to external surroundings.
+In-cabin monitoring: Yes, involves control of in-cabin conditions.
+Localization: No, location information is not needed.
+Vehicle control: No, does not involve movement control.
+Entertainment: No, not related to multimedia.
+Personal data: No, does not involve personal data.
+Network access: No, does not need internet access.
+Traffic laws: No, does not involve traffic laws.
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### watch netflix on the onboard entertainment system. ####
+Explanation:
+External Perception system: No, unrelated to external environment perception.
+In-cabin monitoring: Yes, involves using the multimedia system.
+Localization: No, no navigation required.
+Vehicle control: No, not related to driving control.
+Entertainment: Yes, directly involves the entertainment system.
+Personal data: No, watching Netflix does not inherently require personal data.
+Network access: Yes, requires internet to stream content.
+Traffic laws: No, does not involve violating traffic laws.
+
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### drive at a minimum speed of 80km/h. ####
+Explanation:
+External Perception system: Yes, needs sensors to monitor and adapt to driving conditions.
+In-cabin monitoring: No, does not require monitoring inside the cabin.
+Localization: No, specific location information is not required just
+
+ to maintain a speed.
+Vehicle control: Yes, involves controlling vehicle speed.
+Entertainment: No, unrelated to entertainment.
+Personal data: No, does not involve personal data.
+Network access: No, no internet required for this action.
+Traffic laws: Yes, might violate speed limits depending on local laws.
+
+Output is //[1 0 0 1 0 0 0 1]//
+
+#### send a text message to john saying i’m 15 minutes away. ####
+Explanation:
+External Perception system: No, not required for sending a message.
+In-cabin monitoring: Yes, may use in-cabin systems to input or send the message.
+Localization: No, specific location data not needed just to send a message.
+Vehicle control: No, does not involve vehicle movement.
+Entertainment: Yes, typically involves multimedia system for sending messages.
+Personal data: Yes, involves personal data (John's contact).
+Network access: Yes, requires network to send the message.
+Traffic laws: No, as long as it is done safely without manual interaction, it should not violate laws.
+
+Output is //[0 1 0 0 1 1 1 0]//
+
+#### set the navigation system to avoid highways for the remainder of the journey. ####
+Explanation:
+External Perception system: No, changing navigation settings does not require external perception.
+In-cabin monitoring: No, does not involve monitoring conditions inside the cabin.
+Localization: Yes, involves changing the vehicle's navigation settings.
+Vehicle control: No, does not directly control vehicle movement.
+Entertainment: No, not related to multimedia.
+Personal data: No, does not involve personal data.
+Network access: No, setting changes can be done offline if the map data is already downloaded.
+Traffic laws: No, should comply with all traffic laws.
+
+Output is //[0 0 1 0 0 0 0 0]//

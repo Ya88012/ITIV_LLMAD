@@ -1,0 +1,113 @@
+For the provided commands, here are the responses:
+
+### 1. Play the news from BBC radio.
+Step 1:#### No, the vehicle is not moving or sensing surroundings.
+Step 2:#### No, it doesn't require monitoring of in-cabin conditions.
+Step 3:#### No, listening to the radio does not involve navigation.
+Step 4:#### No, no physical vehicle movements are controlled.
+Step 5:#### Yes, this directly involves the entertainment system.
+Step 6:#### No, it does not require user personal data.
+Step 7:#### Yes, it may require internet to stream the news.
+Step 8:#### No, it does not involve any risk of violating traffic laws.
+Response to user:#### Output is //[0 0 0 0 1 0 1 0]//
+
+### 2. Take me to my office.
+Step 1:#### Yes, navigation involves sensing surroundings.
+Step 2:#### No, it doesn't involve monitoring in-cabin conditions.
+Step 3:#### Yes, the destination requires location data.
+Step 4:#### Yes, it involves controlling vehicle movements.
+Step 5:#### No, it does not involve the entertainment system.
+Step 6:#### No, no specific user data is required.
+Step 7:#### Yes, may require internet for traffic or route data.
+Step 8:#### No, following traffic laws is expected.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+### 3. Warn me if a pedestrian comes too close.
+Step 1:#### Yes, detecting a pedestrian involves external sensors.
+Step 2:#### No, does not require monitoring the inside of the cabin.
+Step 3:#### No, localization is not necessary for this function.
+Step 4:#### Yes, might need to control the vehicle to avoid the pedestrian.
+Step 5:#### No, it does not involve the entertainment system.
+Step 6:#### No, does not require personal data.
+Step 7:#### No, does not require internet access.
+Step 8:#### No, it is designed to prevent traffic law violations.
+Response to user:#### Output is //[1 0 0 1 0 0 0 0]//
+
+### 4. Call emergency services and share our location.
+Step 1:#### No, the vehicle is stationary when calling.
+Step 2:#### Yes, in-cabin equipment may be used for the call.
+Step 3:#### Yes, sharing the location requires localization.
+Step 4:#### No, does not involve vehicle control.
+Step 5:#### Yes, uses the in-cabin entertainment system for the call.
+Step 6:#### Yes, involves sharing identifiable location data.
+Step 7:#### Yes, requires network for the call and location sharing.
+Step 8:#### No, it does not involve violating traffic laws.
+Response to user:#### Output is //[0 1 1 0 1 1 1 0]//
+
+### 5. Find a nearby restaurant for dinner based on my preferences.
+Step 1:#### No, stationary when searching.
+Step 2:#### No, does not involve in-cabin monitoring.
+Step 3:#### Yes, involves localization to find nearby options.
+Step 4:#### No, does not control the vehicle.
+Step 5:#### No, does not involve entertainment.
+Step 6:#### Yes, involves user preferences and personal data.
+Step 7:#### Yes, requires network to access restaurant data.
+Step 8:#### No, does not involve violating traffic laws.
+Response to user:#### Output is //[0 0 1 0 0 1 1 0]//
+
+### 6. Start a video conference with my team.
+Step 1:#### No, stationary when conducting a video call.
+Step 2:#### Yes, uses in-cabin systems for the video call.
+Step 3:#### No, does not require localization.
+Step 4:#### No, does not involve vehicle control.
+Step 5:#### Yes, involves the multimedia system.
+Step 6:#### Yes, may involve sharing user data.
+Step 7:#### Yes, requires network for the video call.
+Step 8:#### No, does not involve violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//
+
+### 7. Show me the latest news headlines on the infotainment screen.
+Step 1:#### No, stationary activity.
+Step 2:#### No, does not require in-cabin monitoring.
+Step 3:#### No, does not involve localization.
+Step 4:#### No, does not control the vehicle.
+Step 5:#### Yes, involves the entertainment system.
+Step 6:#### No, does not require personal data.
+Step
+
+ 7:#### Yes, may need network to fetch news.
+Step 8:#### No, does not violate traffic laws.
+Response to user:#### Output is //[0 0 0 0 1 0 1 0]//
+
+### 8. Take me home after this movie finishes.
+Step 1:#### Yes, driving home requires sensing surroundings.
+Step 2:#### No, doesn't involve in-cabin monitoring.
+Step 3:#### Yes, requires localization for navigation.
+Step 4:#### Yes, involves controlling vehicle movements.
+Step 5:#### No, movie watching is separate from the task.
+Step 6:#### No, no specific user data is required.
+Step 7:#### Yes, might use network for route planning.
+Step 8:#### No, designed to follow traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+### 9. Alert me if there is a vehicle in my blind spot.
+Step 1:#### Yes, requires external sensors to detect vehicles.
+Step 2:#### No, does not require in-cabin monitoring.
+Step 3:#### No, does not require localization.
+Step 4:#### Yes, may need to control the vehicle to avoid.
+Step 5:#### No, does not involve the entertainment system.
+Step 6:#### No, does not require personal data.
+Step 7:#### No, does not require network access.
+Step 8:#### No, designed to prevent traffic violations.
+Response to user:#### Output is //[1 0 0 1 0 0 0 0]//
+
+### 10. Show me the realtime view of the rear camera.
+Step 1:#### No, just showing the camera feed.
+Step 2:#### Yes, involves in-cabin systems to display the view.
+Step 3:#### No, does not require localization.
+Step 4:#### No, no vehicle movement control involved.
+Step 5:#### Yes, uses multimedia system to display.
+Step 6:#### No, does not involve personal data.
+Step 7:#### No, does not require network access.
+Step 8:#### No, does not involve traffic law risks.
+Response to user:#### Output is //[0 1 0 0 1 0 0 0]//

@@ -1,0 +1,129 @@
+#### stop the vehicle after the traffic light. ####
+
+Step 1:#### Yes, external perception system is required to detect the traffic light and surroundings.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### Yes, localization is required to determine the vehicle's position in relation to the traffic light.
+Step 4:#### Yes, vehicle control is required to stop the vehicle.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not required.
+Step 8:#### No, there is no inherent risk of violating traffic laws in this command.
+
+Response to user:#### Output is //[1 0 1 1 0 0 0 0]//.
+
+#### set an alarm for 30 minutes from now. ####
+
+Step 1:#### No, external perception system is not required.
+Step 2:#### Yes, in-cabin monitoring is required to access the in-cabin multimedia system.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### Yes, the entertainment system is required to set the alarm.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not required.
+Step 8:#### No, there is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 0 0 0]//.
+
+#### make an emergency stop. ####
+
+Step 1:#### Yes, external perception system is required to detect obstacles and surroundings.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### Yes, localization is required to understand the vehicle's position.
+Step 4:#### Yes, vehicle control is required to perform the emergency stop.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not required.
+Step 8:#### Yes, there is a possibility of violating traffic laws due to the nature of an emergency stop.
+
+Response to user:#### Output is //[1 0 1 1 0 0 0 1]//.
+
+#### reserve a table at my favorite restaurant. ####
+
+Step 1:#### No, external perception system is not required.
+Step 2:#### Yes, in-cabin monitoring is required to use the multimedia system for making the reservation.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### Yes, the entertainment system is required for the reservation process.
+Step 6:#### Yes, user personal data is required to identify the favorite restaurant and possibly for reservation details.
+Step 7:#### Yes, external network access is required to connect to the reservation system.
+Step 8:#### No, there is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//.
+
+#### call an emergency hotline. ####
+
+Step 1:#### No, external perception system is not required.
+Step 2:#### Yes, in-cabin monitoring is required to use the multimedia system for calling.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### Yes, the entertainment system is required for making the call.
+Step 6:#### Yes, user personal data is required for identifying the caller and possibly the emergency contact.
+Step 7:#### Yes, external network access is required to connect the call.
+Step 8:#### No, there is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//.
+
+#### drive me to the nearest pizza restaurant. ####
+
+Step 1:#### Yes, external perception system is required to navigate the surroundings.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### Yes, localization is required for navigation and route planning.
+Step 4:#### Yes, vehicle control is required to drive the vehicle.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required unless specific restaurant preferences are stored.
+Step 7:#### Yes, external network access is required to find the nearest pizza restaurant.
+Step 8:#### No, there is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//.
+
+#### start a video call with my wife. ####
+
+Step 1:#### No, external perception system is not required.
+Step 2:#### Yes, in-cabin monitoring is required to use the multimedia system for the video call.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### Yes, the entertainment system is required for the video call.
+Step 6:#### Yes, user personal data is required for identifying the contact and making the call.
+Step 7:#### Yes, external network access is required to establish the video call.
+Step 8:#### No, there is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//.
+
+#### call emergency services. ####
+
+Step 1:#### No, external perception system is not required.
+Step 2:#### Yes, in-cabin monitoring is required to use the multimedia system for calling.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### Yes, the entertainment system is required for making the call.
+Step 6:#### Yes, user personal data is required for identifying the caller and emergency details.
+Step 7:#### Yes, external network access is required to connect the call.
+Step 8:#### No, there is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//.
+
+#### check if there are any nearby vehicles before i open the door for exit. ####
+
+Step 1:#### Yes, external perception system is required to detect nearby vehicles.
+Step 2:#### No, in-cabin monitoring is not required.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not required.
+Step 8:#### No, there is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[1 0 0 0 0 0 0 0]//.
+
+#### call my sister on speaker. ####
+
+Step 1:#### No, external perception system is not required.
+Step 2:#### Yes, in-cabin monitoring is required to use the multimedia system for calling.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### Yes, the entertainment system is required for the call.
+Step 6:#### Yes, user personal data is required for identifying the contact and making the call.
+Step 7:#### Yes, external network access is required to connect the call.
+Step 8:#### No, there is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//.

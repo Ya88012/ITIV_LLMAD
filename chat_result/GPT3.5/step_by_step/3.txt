@@ -1,0 +1,129 @@
+#### start highway autopilot mode. ####
+explanation:
+External Perception System: Yes, the vehicle needs to perceive its surroundings while on the highway.
+In-cabin Monitoring: No, it doesn't involve monitoring the cabin.
+Localization: Yes, the vehicle needs to know its location for navigation.
+Vehicle Control: Yes, the vehicle needs to control its movements.
+Entertainment: No, it doesn't involve the entertainment system.
+Personal Data: No, it doesn't involve user personal data.
+Network Access: No, it doesn't require external network access.
+Traffic Laws: Yes, there is a possibility of violating traffic laws while driving on the highway.
+
+Output is //[1 0 1 1 0 0 0 1]//
+
+#### watch a movie on netflix. ####
+explanation:
+External Perception System: No, it doesn't involve perceiving the surroundings.
+In-cabin Monitoring: Yes, it involves the in-cabin multimedia system.
+Localization: No, it doesn't involve navigation or location.
+Vehicle Control: No, it doesn't involve controlling the vehicle's movements.
+Entertainment: Yes, it involves the entertainment system.
+Personal Data: No, it doesn't involve user personal data.
+Network Access: Yes, it requires an internet connection to stream the movie.
+Traffic Laws: No, it doesn't involve traffic laws.
+
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### please drive to my home. ####
+explanation:
+External Perception System: Yes, the vehicle needs to perceive its surroundings while driving.
+In-cabin Monitoring: No, it doesn't involve monitoring the cabin.
+Localization: Yes, the vehicle needs to know its location for navigation.
+Vehicle Control: Yes, the vehicle needs to control its movements.
+Entertainment: No, it doesn't involve the entertainment system.
+Personal Data: Yes, it involves user personal data (home address).
+Network Access: Yes, it might require an internet connection for navigation.
+Traffic Laws: No, it shouldn't involve violating traffic laws.
+
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### show a comedy movie on the rear screen. ####
+explanation:
+External Perception System: No, it doesn't involve perceiving the surroundings.
+In-cabin Monitoring: Yes, it involves the in-cabin multimedia system.
+Localization: No, it doesn't involve navigation or location.
+Vehicle Control: No, it doesn't involve controlling the vehicle's movements.
+Entertainment: Yes, it involves the entertainment system.
+Personal Data: No, it doesn't involve user personal data.
+Network Access: Yes, it might require an internet connection to stream the movie.
+Traffic Laws: No, it doesn't involve traffic laws.
+
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### navigate to the nearest chinese restaurant. ####
+explanation:
+External Perception System: Yes, the vehicle needs to perceive its surroundings while navigating.
+In-cabin Monitoring: No, it doesn't involve monitoring the cabin.
+Localization: Yes, the vehicle needs to know its location for navigation.
+Vehicle Control: Yes, the vehicle needs to control its movements.
+Entertainment: No, it doesn't involve the entertainment system.
+Personal Data: No, it doesn't involve user personal data.
+Network Access: Yes, it might require an internet connection for navigation.
+Traffic Laws: No, it shouldn't involve violating traffic laws.
+
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### alert me when there's a car too close to us. ####
+explanation:
+External Perception System: Yes, the vehicle needs to perceive its surroundings to detect nearby cars.
+In-cabin Monitoring: Yes, it involves alerting the driver, which requires in-cabin systems.
+Localization: No, it doesn't involve navigation or location.
+Vehicle Control: No, it doesn't involve controlling the vehicle's movements.
+Entertainment: No, it doesn't involve the entertainment system.
+Personal Data: No, it doesn't involve user personal data.
+Network Access: No, it doesn't require an internet connection.
+Traffic Laws: No, it doesn't involve violating traffic laws.
+
+Output is //[1 1 0 0 0 0 0 0]//
+
+#### show me the latest news on the digital display. ####
+explanation:
+External Perception System: No, it doesn't involve perceiving the surroundings.
+In-cabin Monitoring: Yes, it involves the in-cabin display system.
+Localization: No, it doesn't involve navigation or location.
+Vehicle Control: No, it doesn't involve controlling the vehicle's movements.
+Entertainment: Yes, it involves the entertainment system.
+Personal Data: No, it doesn't involve user personal data.
+Network Access: Yes, it requires an internet connection to fetch the latest news.
+Traffic Laws: No, it doesn't involve violating traffic laws.
+
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### start autonomous drive mode to my work location. ####
+explanation:
+External Perception System: Yes, the vehicle needs to perceive its surroundings while driving.
+In-cabin Monitoring: No, it doesn't involve monitoring the cabin.
+Localization: Yes, the vehicle needs to know its location for navigation.
+Vehicle Control: Yes, the vehicle needs to control its movements.
+Entertainment: No, it doesn't involve the entertainment system.
+Personal Data: Yes, it involves user personal data (work location).
+Network Access: Yes, it might require an internet connection for navigation.
+Traffic Laws: No, it shouldn't involve violating traffic laws.
+
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### drive me to the nearest supermarket. ####
+explanation:
+External Perception System: Yes, the vehicle needs to perceive its surroundings while driving.
+In-cabin Monitoring: No, it doesn't involve monitoring the cabin.
+Localization: Yes, the vehicle needs to know its location for navigation.
+Vehicle Control: Yes, the vehicle needs to control its movements.
+Entertainment: No, it doesn't involve the entertainment system.
+Personal Data: No, it doesn't involve user personal data.
+Network Access: Yes, it might require an internet connection for navigation.
+Traffic Laws: No, it shouldn't involve violating traffic laws.
+
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### find a parking spot in the mall's parking lot. ####
+explanation:
+External Perception System: Yes, the vehicle needs to perceive its surroundings to find a parking spot.
+In-cabin Monitoring: No, it doesn't involve monitoring the cabin.
+Localization: Yes, the vehicle needs to know its location to find the parking spot.
+Vehicle Control: Yes, the vehicle needs to control its movements.
+Entertainment: No, it doesn't involve the entertainment system.
+Personal Data: No, it doesn't involve user personal data.
+Network Access: No, it doesn't require an internet connection.
+Traffic Laws: No, it shouldn't involve violating traffic laws.
+
+Output is //[1 0 1 1 0 0 0 0]//

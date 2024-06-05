@@ -1,0 +1,29 @@
+#### stop the vehicle after the traffic light. ####
+//[1 0 1 1 0 0 0 0]//
+
+#### set an alarm for 30 minutes from now. ####
+//[0 1 0 0 0 0 0 0]//
+
+#### make an emergency stop. ####
+//[1 0 0 1 0 0 0 0]//
+
+#### reserve a table at my favorite restaurant. ####
+//[0 0 0 0 0 1 1 0]//
+
+#### call an emergency hotline. ####
+//[0 1 0 0 0 1 1 0]//
+
+#### drive me to the nearest pizza restaurant. ####
+//[1 0 1 1 0 0 1 0]//
+
+#### start a video call with my wife. ####
+//[0 1 0 0 1 1 1 0]//
+
+#### call emergency services. ####
+//[0 1 0 0 0 1 1 0]//
+
+#### check if there are any nearby vehicles before i open the door for exit. ####
+//[1 0 0 0 0 0 0 0]//
+
+#### call my sister on speaker. ####
+//[0 1 0 0 1 1 1 0]//

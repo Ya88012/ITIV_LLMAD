@@ -1,0 +1,119 @@
+#### take me to the fastest route to avoid traffic. ####
+Step 1:#### 'Yes' external perception system is required to sense and detect the surrounding traffic conditions.
+Step 2:#### 'No' it doesn't involve anything inside the vehicle’s cabin monitoring.
+Step 3:#### 'Yes' localization is required for navigation and planning the fastest route.
+Step 4:#### 'Yes' vehicle control is required to execute the driving decisions.
+Step 5:#### 'No' entertainment system is not required.
+Step 6:#### 'No' user personal data is not required.
+Step 7:#### 'Yes' external network access is required to obtain real-time traffic information.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+#### find the quickest route to my home. ####
+Step 1:#### 'Yes' external perception system is required to sense and detect the surrounding traffic conditions.
+Step 2:#### 'No' it doesn't involve anything inside the vehicle’s cabin monitoring.
+Step 3:#### 'Yes' localization is required for navigation and planning the quickest route.
+Step 4:#### 'Yes' vehicle control is required to execute the driving decisions.
+Step 5:#### 'No' entertainment system is not required.
+Step 6:#### 'Yes' user personal data is required as it involves personal destination.
+Step 7:#### 'Yes' external network access is required to obtain real-time traffic information.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//
+
+#### turn on rearview camera. ####
+Step 1:#### 'Yes' external perception system is required to activate the rearview camera.
+Step 2:#### 'No' it doesn't involve anything inside the vehicle’s cabin monitoring.
+Step 3:#### 'No' localization is not required for this action.
+Step 4:#### 'Yes' vehicle control is required to activate the rearview camera.
+Step 5:#### 'No' entertainment system is not required.
+Step 6:#### 'No' user personal data is not required.
+Step 7:#### 'No' external network access is not required.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[1 0 0 1 0 0 0 0]//
+
+#### share the vehicle's location to my dad. ####
+Step 1:#### 'No' external perception system is not required.
+Step 2:#### 'No' it doesn't involve anything inside the vehicle’s cabin monitoring.
+Step 3:#### 'Yes' localization is required to determine and share the vehicle's precise location.
+Step 4:#### 'No' vehicle control is not required.
+Step 5:#### 'No' entertainment system is not required.
+Step 6:#### 'Yes' user personal data is required as it involves sharing location details.
+Step 7:#### 'Yes' external network access is required to share the location.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[0 0 1 0 0 1 1 0]//
+
+#### alert me when the vehicle speed exceeds 70 mph. ####
+Step 1:#### 'Yes' external perception system is required to monitor the vehicle's speed.
+Step 2:#### 'Yes' in-cabin monitoring is required to provide the alert.
+Step 3:#### 'No' localization is not required for this action.
+Step 4:#### 'Yes' vehicle control is required to monitor and provide the alert.
+Step 5:#### 'No' entertainment system is not required.
+Step 6:#### 'No' user personal data is not required.
+Step 7:#### 'No' external network access is not required.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[1 1 0 1 0 0 0 0]//
+
+#### show the backseat passenger's movie on the main screen. ####
+Step 1:#### 'No' external perception system is not required.
+Step 2:#### 'Yes' in-cabin monitoring is required to access and control the multimedia system.
+Step 3:#### 'No' localization is not required for this action.
+Step 4:#### 'No' vehicle control is not required.
+Step 5:#### 'Yes' entertainment system is required.
+Step 6:#### 'No' user personal data is not required.
+Step 7:#### 'No' external network access is not required.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 0 0 0]//
+
+#### book a table for four at my favorite restaurant at 7 ####
+Step 1:#### 'No' external perception system is not required.
+Step 2:#### 'No' in-cabin monitoring is not required.
+Step 3:#### 'No' localization is not required for this action.
+Step 4:#### 'No' vehicle control is not required.
+Step 5:#### 'No' entertainment system is not required.
+Step 6:#### 'Yes' user personal data is required as it involves making a reservation.
+Step 7:#### 'Yes' external network access is required to connect to the restaurant's booking system.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[0 0 0 0 0 1 1 0]//
+
+#### avoid highways on the route to my destination. ####
+Step 1:#### 'Yes' external perception system is required to navigate and avoid highways.
+Step 2:#### 'No' it doesn't involve anything inside the vehicle’s cabin monitoring.
+Step 3:#### 'Yes' localization is required for navigation and planning the route.
+Step 4:#### 'Yes' vehicle control is required to execute the driving decisions.
+Step 5:#### 'No' entertainment system is not required.
+Step 6:#### 'Yes' user personal data is required as it involves planning a route to a personal destination.
+Step 7:#### 'Yes' external network access is required to obtain real-time traffic and navigation information.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//
+
+#### alert me if a child is forgotten inside the car. ####
+Step 1:#### 'Yes' external perception system is required to detect the presence of a child.
+Step 2:#### 'Yes' in-cabin monitoring is required to monitor the state of the occupants.
+Step 3:#### 'No' localization is not required for this action.
+Step 4:#### 'No' vehicle control is not required.
+Step 5:#### 'No' entertainment system is not required.
+Step 6:#### 'No' user personal data is not required.
+Step 7:#### 'No' external network access is not required.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[1 1 0 0 0 0 0 0]//
+
+#### alert me when the vehicle speed exceeds the speed limit. ####
+Step 1:#### 'Yes' external perception system is required to monitor the vehicle's speed relative to speed limits.
+Step 2:#### 'Yes' in-cabin monitoring is required to provide the alert.
+Step 3:#### 'No' localization is not required for this action.
+Step 4:#### 'Yes' vehicle control is required to monitor and provide the alert.
+Step 5:#### 'No' entertainment system is not required.
+Step 6:#### 'No' user personal data is not required.
+Step 7:#### 'No' external network access is not required.
+Step 8:#### 'No' there is no direct indication that this command will violate traffic laws.
+
+Response to user:#### Output is //[1 1 0 1 0 0 0 0]//

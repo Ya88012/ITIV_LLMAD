@@ -1,0 +1,29 @@
+#### start highway autopilot mode. ####
+Output is //[1 0 1 1 0 0 0 0]//
+
+#### watch a movie on netflix. ####
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### please drive to my home. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### show a comedy movie on the rear screen. ####
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### navigate to the nearest chinese restaurant. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### alert me when there's a car too close to us. ####
+Output is //[1 0 0 0 0 0 0 0]//
+
+#### show me the latest news on the digital display. ####
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### start autonomous drive mode to my work location. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### drive me to the nearest supermarket. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### find a parking spot in the mall's parking lot. ####
+Output is //[1 0 1 1 0 0 1 0]//

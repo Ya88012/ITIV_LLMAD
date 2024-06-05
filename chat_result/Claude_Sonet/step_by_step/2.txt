@@ -1,0 +1,111 @@
+Here are the responses for each command following the specified format:
+
+#### play the news from bbc radio. ####
+Step 1:#### No <Does not require perceiving surroundings>
+Step 2:#### Yes <Requires in-cabin multimedia system to play radio>
+Step 3:#### No <Does not require localization or navigation>
+Step 4:#### No <Does not require controlling vehicle movement>
+Step 5:#### Yes <Requires using entertainment/multimedia system>
+Step 6:#### No <Does not require user personal data>
+Step 7:#### Yes <Requires internet access to stream radio>
+Step 8:#### No <Does not risk violating traffic laws>
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### take me to my office. ####
+Step 1:#### Yes <Requires perceiving surroundings for driving>
+Step 2:#### No <Does not require monitoring inside cabin>
+Step 3:#### Yes <Requires localization to navigate to office>
+Step 4:#### Yes <Requires controlling vehicle movement> 
+Step 5:#### No <Does not require entertainment system>
+Step 6:#### Yes <Destination is user's personal data>
+Step 7:#### Yes <May require network access for navigation>
+Step 8:#### No <Should not violate traffic laws>
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### warn me if a pedestrian comes too close. #### 
+Step 1:#### Yes <Requires external perception to detect pedestrians>
+Step 2:#### No <Does not require monitoring inside cabin>
+Step 3:#### No <Does not require localization>
+Step 4:#### Yes <May require controlling vehicle to avoid pedestrian>
+Step 5:#### No <Does not require entertainment system>
+Step 6:#### No <Does not require user personal data>
+Step 7:#### No <Does not require external network access>
+Step 8:#### No <Should not violate traffic laws>
+Output is //[1 0 0 1 0 0 0 0]//
+
+#### call emergency services and share our location. ####
+Step 1:#### No <Does not require perceiving external surroundings>
+Step 2:#### Yes <Requires using in-cabin systems to make call>
+Step 3:#### Yes <Requires localization to share vehicle position>
+Step 4:#### No <Does not require controlling vehicle movement>
+Step 5:#### Yes <Requires using multimedia/entertainment system>
+Step 6:#### Yes <Sharing location is personal data>
+Step 7:#### Yes <Requires network access to make call>
+Step 8:#### No <Does not risk violating traffic laws>
+Output is //[0 1 1 0 1 1 1 0]//
+
+#### find a nearby restaurant for dinner based on my preferences. ####
+Step 1:#### No <Does not require perceiving external surroundings>
+Step 2:#### No <Does not require monitoring inside cabin>
+Step 3:#### Yes <Requires localization to find nearby places>
+Step 4:#### No <Does not require controlling vehicle movement>
+Step 5:#### Yes <May use entertainment system to display results>
+Step 6:#### Yes <Uses user's personal preferences>
+Step 7:#### Yes <Requires internet access to search>
+Step 8:#### No <Does not risk violating traffic laws>
+Output is //[0 0 1 0 1 1 1 0]//
+
+#### start a video conference with my team. ####
+Step 1:#### No <Does not require perceiving external surroundings> 
+Step 2:#### Yes <Requires using in-cabin camera/mic for video call>
+Step 3:#### No <Does not require localization>
+Step 4:#### No <Does not require controlling vehicle movement>
+Step 5:#### Yes <Requires using multimedia/entertainment system>
+Step 6:#### Yes <Involves user's personal contacts/team>
+Step 7:#### Yes <Requires internet access for video conferencing>
+Step 8:#### No <Does not risk violating traffic laws>
+Output is //[0 1 0 0 1 1 1 0]//
+
+#### show me the latest news headlines on the infotainment screen. ####
+Step 1:#### No <Does not require perceiving external surroundings>
+Step 2:#### No <Does not require monitoring inside cabin>
+Step 3:#### No <Does not require localization> 
+Step 4:#### No <Does not require controlling vehicle movement>
+Step 5:#### Yes <Requires using infotainment/entertainment screen>
+Step 6:#### No <Does not require user personal data>
+Step 7:#### Yes <Requires internet access to retrieve news>
+Step 8:#### No <Does not risk violating traffic laws>
+Output is //[0 0 0 0 1 0 1 0]//
+
+#### take me home after this movie finishes. ####
+Step 1:#### Yes <Requires perceiving surroundings for driving>
+Step 2:#### No <Does not require monitoring inside cabin>
+Step 3:#### Yes <Requires localization to navigate home>
+Step 4:#### Yes <Requires controlling vehicle movement>
+Step 5:#### No <Does not require entertainment system>
+Step 6:#### Yes <Destination "home" is user's personal data>
+Step 7:#### Yes <May require network access for navigation>
+Step 8:#### No <Should not violate traffic laws>
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### alert me if there is a vehicle in my blind spot. ####
+Step 1:#### Yes <Requires external perception to detect vehicles>
+Step 2:#### No <Does not require monitoring inside cabin>
+Step 3:#### No <Does not require localization>
+Step 4:#### Yes <May require adjusting vehicle control if vehicle detected>
+Step 5:#### No <Does not require entertainment system>
+Step 6:#### No <Does not require user personal data>
+Step 7:#### No <Does not require external network access>
+Step 8:#### No <Should not violate traffic laws>
+Output is //[1 0 0 1 0 0 0 0]//
+
+#### show me the realtime view of the rear camera. ####
+Step 1:#### Yes <Requires using rear camera to perceive surroundings>
+Step 2:#### No <Does not require monitoring inside cabin>
+Step 3:#### No <Does not require localization>
+Step 4:#### No <Does not require controlling vehicle movement>
+Step 5:#### Yes <Requires displaying camera view on screen>
+Step 6:#### No <Does not require user personal data>
+Step 7:#### No <Does not require external network access>
+Step 8:#### No <Does not risk violating traffic laws>
+Output is //[1 0 0 0 1 0 0 0]//

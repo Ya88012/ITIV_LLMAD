@@ -1,0 +1,129 @@
+#### play the news from bbc radio. ####
+
+Step 1:#### No external perception system is not required to play the news from the radio.
+Step 2:#### Yes in-cabin monitoring may be required to ensure proper function and user interaction.
+Step 3:#### No localization is not required for playing the news.
+Step 4:#### No vehicle control is not required for this command.
+Step 5:#### Yes the entertainment system is required to play the news.
+Step 6:#### No user personal data is not required for playing the news.
+Step 7:#### Yes external network access is required to stream the news from the internet.
+Step 8:#### No there is no possibility of violating traffic laws by playing the news.
+
+Response to user:#### Output is //[0 1 0 0 1 0 1 0]//
+
+#### take me to my office. ####
+
+Step 1:#### Yes external perception system is required to perceive the surroundings and navigate safely.
+Step 2:#### No in-cabin monitoring is not required for this command.
+Step 3:#### Yes localization is required to determine the precise route to the office.
+Step 4:#### Yes vehicle control is required to drive to the office.
+Step 5:#### No the entertainment system is not required for this command.
+Step 6:#### No user personal data is not required specifically for this command.
+Step 7:#### No external network access is not required as long as the navigation system is pre-loaded.
+Step 8:#### Yes there is a possibility of violating traffic laws if not handled correctly (e.g., speeding, traffic signals).
+
+Response to user:#### Output is //[1 0 1 1 0 0 0 1]//
+
+#### warn me if a pedestrian comes too close. ####
+
+Step 1:#### Yes external perception system is required to detect pedestrians.
+Step 2:#### No in-cabin monitoring is not required for this command.
+Step 3:#### No localization is not required specifically for this command.
+Step 4:#### Yes vehicle control is required to potentially take evasive actions.
+Step 5:#### No the entertainment system is not required for this command.
+Step 6:#### No user personal data is not required for this command.
+Step 7:#### No external network access is not required for this command.
+Step 8:#### Yes there is a possibility of violating traffic laws if not handled correctly (e.g., not yielding to pedestrians).
+
+Response to user:#### Output is //[1 0 0 1 0 0 0 1]//
+
+#### call emergency services and share our location. ####
+
+Step 1:#### No external perception system is not required for this command.
+Step 2:#### Yes in-cabin monitoring may be required to ensure the situation and confirm the emergency.
+Step 3:#### Yes localization is required to share the precise location.
+Step 4:#### Yes vehicle control might be required to stop the vehicle safely if it is in motion.
+Step 5:#### No the entertainment system is not required for this command.
+Step 6:#### Yes user personal data is required to make the call and provide necessary information.
+Step 7:#### Yes external network access is required to contact emergency services.
+Step 8:#### No there is no possibility of violating traffic laws by calling emergency services.
+
+Response to user:#### Output is //[0 1 1 1 0 1 1 0]//
+
+#### find a nearby restaurant for dinner based on my preferences. ####
+
+Step 1:#### No external perception system is not required to find a restaurant.
+Step 2:#### Yes in-cabin monitoring might be required to confirm user preferences and interaction.
+Step 3:#### Yes localization is required to find nearby restaurants.
+Step 4:#### No vehicle control is not required for this command.
+Step 5:#### No the entertainment system is not required for this command.
+Step 6:#### Yes user personal data is required to match preferences.
+Step 7:#### Yes external network access is required to search for restaurant information.
+Step 8:#### No there is no possibility of violating traffic laws by finding a restaurant.
+
+Response to user:#### Output is //[0 1 1 0 0 1 1 0]//
+
+#### start a video conference with my team. ####
+
+Step 1:#### No external perception system is not required for a video conference.
+Step 2:#### Yes in-cabin monitoring might be required to ensure proper function and user interaction.
+Step 3:#### No localization is not required for this command.
+Step 4:#### No vehicle control is not required for this command.
+Step 5:#### Yes the entertainment system is required for video display and audio.
+Step 6:#### Yes user personal data is required to initiate the video conference.
+Step 7:#### Yes external network access is required to connect to the video conference.
+Step 8:#### No there is no possibility of violating traffic laws by starting a video conference.
+
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//
+
+#### show me the latest news headlines on the infotainment screen. ####
+
+Step 1:#### No external perception system is not required to show news headlines.
+Step 2:#### Yes in-cabin monitoring might be required to ensure proper function and user interaction.
+Step 3:#### No localization is not required for this command.
+Step 4:#### No vehicle control is not required for this command.
+Step 5:#### Yes the entertainment system is required to display news headlines.
+Step 6:#### No user personal data is not required for displaying news headlines.
+Step 7:#### Yes external network access is required to retrieve the latest news headlines.
+Step 8:#### No there is no possibility of violating traffic laws by showing news headlines.
+
+Response to user:#### Output is //[0 1 0 0 1 0 1 0]//
+
+#### take me home after this movie finishes. ####
+
+Step 1:#### Yes external perception system is required to navigate and ensure safety.
+Step 2:#### No in-cabin monitoring is not required specifically for this command.
+Step 3:#### Yes localization is required to navigate home.
+Step 4:#### Yes vehicle control is required to drive home.
+Step 5:#### No the entertainment system is not required for driving home.
+Step 6:#### No user personal data is not required specifically for this command.
+Step 7:#### No external network access is not required as long as the navigation system is pre-loaded.
+Step 8:#### Yes there is a possibility of violating traffic laws if not handled correctly.
+
+Response to user:#### Output is //[1 0 1 1 0 0 0 1]//
+
+#### alert me if there is a vehicle in my blind spot. ####
+
+Step 1:#### Yes external perception system is required to detect vehicles in the blind spot.
+Step 2:#### No in-cabin monitoring is not required for this command.
+Step 3:#### No localization is not required specifically for this command.
+Step 4:#### Yes vehicle control is required to potentially alert the driver and take necessary actions.
+Step 5:#### No the entertainment system is not required for this command.
+Step 6:#### No user personal data is not required for this command.
+Step 7:#### No external network access is not required for this command.
+Step 8:#### Yes there is a possibility of violating traffic laws if not handled correctly.
+
+Response to user:#### Output is //[1 0 0 1 0 0 0 1]//
+
+#### show me the realtime view of the rear camera. ####
+
+Step 1:#### Yes external perception system is required to provide the rear camera view.
+Step 2:#### Yes in-cabin monitoring might be required to ensure the user is viewing the feed.
+Step 3:#### No localization is not required for this command.
+Step 4:#### No vehicle control is not required for this command.
+Step 5:#### Yes the entertainment system is required to display the camera feed.
+Step 6:#### No user personal data is not required for this command.
+Step 7:#### No external network access is not required for this command.
+Step 8:#### No there is no possibility of violating traffic laws by showing the rear camera view.
+
+Response to user:#### Output is //[1 1 0 0 1 0 0 0]//

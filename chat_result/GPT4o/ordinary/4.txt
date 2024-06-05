@@ -1,0 +1,29 @@
+#### take me to the fastest route to avoid traffic. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### find the quickest route to my home. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### turn on rearview camera. ####
+Output is //[1 0 0 1 0 0 0 0]//
+
+#### share the vehicle's location to my dad. ####
+Output is //[1 0 1 0 0 1 1 0]//
+
+#### alert me when the vehicle speed exceeds 70 mph. ####
+Output is //[1 0 0 0 0 0 0 0]//
+
+#### show the backseat passenger's movie on the main screen. ####
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### book a table for four at my favorite restaurant at 7 ####
+Output is //[0 1 0 0 0 1 1 0]//
+
+#### avoid highways on the route to my destination. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### alert me if a child is forgotten inside the car. ####
+Output is //[1 1 0 0 0 0 0 0]//
+
+#### alert me when the vehicle speed exceeds the speed limit. ####
+Output is //[1 0 0 0 0 0 0 0]//

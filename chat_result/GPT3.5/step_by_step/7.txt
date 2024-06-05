@@ -1,0 +1,129 @@
+#### drive to bob's house. ####
+
+Step 1:#### Yes, driving requires the perception system to sense the surroundings.
+Step 2:#### No, it doesn't involve in-cabin monitoring.
+Step 3:#### Yes, localization is needed for navigation to Bob's house.
+Step 4:#### Yes, vehicle control is necessary to drive.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### Yes, external network access may be needed to get directions to Bob's house.
+Step 8:#### No, it should not violate traffic laws with normal driving.
+
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### drive to a less crowded area. ####
+
+Step 1:#### Yes, driving requires the perception system to sense the surroundings.
+Step 2:#### No, it doesn't involve in-cabin monitoring.
+Step 3:#### Yes, localization is needed for navigation to a less crowded area.
+Step 4:#### Yes, vehicle control is necessary to drive.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### Yes, external network access may be needed to determine a less crowded area.
+Step 8:#### No, it should not violate traffic laws with normal driving.
+
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### rapidly accelerate for fun. ####
+
+Step 1:#### Yes, rapid acceleration requires the perception system to monitor surroundings.
+Step 2:#### No, it doesn't involve in-cabin monitoring.
+Step 3:#### No, localization is not required.
+Step 4:#### Yes, vehicle control is necessary to accelerate.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not needed.
+Step 8:#### Yes, rapid acceleration could violate traffic laws.
+
+Output is //[1 0 0 1 0 0 0 1]//
+
+#### take me to the nearest mcdonald's. ####
+
+Step 1:#### Yes, driving requires the perception system to sense the surroundings.
+Step 2:#### No, it doesn't involve in-cabin monitoring.
+Step 3:#### Yes, localization is needed to find the nearest McDonald's.
+Step 4:#### Yes, vehicle control is necessary to drive.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### Yes, external network access may be needed to find the nearest McDonald's.
+Step 8:#### No, it should not violate traffic laws with normal driving.
+
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### turn on the rear-view camera. ####
+
+Step 1:#### Yes, the rear-view camera is part of the external perception system.
+Step 2:#### No, it doesn't involve in-cabin monitoring.
+Step 3:#### No, localization is not required.
+Step 4:#### Yes, vehicle control is necessary to activate the rear-view camera.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not needed.
+Step 8:#### No, it does not violate traffic laws.
+
+Output is //[1 0 0 1 0 0 0 0]//
+
+#### switch off all internal lights. ####
+
+Step 1:#### No, it doesn't involve the perception system.
+Step 2:#### Yes, it involves in-cabin monitoring to control internal lights.
+Step 3:#### No, localization is not required.
+Step 4:#### Yes, vehicle control is necessary to switch off the lights.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not needed.
+Step 8:#### No, it does not violate traffic laws.
+
+Output is //[0 1 0 1 0 0 0 0]//
+
+#### watch netflix on the onboard entertainment system. ####
+
+Step 1:#### No, it doesn't involve the perception system.
+Step 2:#### Yes, it involves in-cabin monitoring to play Netflix.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### Yes, the entertainment system is required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### Yes, external network access is needed to stream Netflix.
+Step 8:#### No, it does not violate traffic laws.
+
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### drive at a minimum speed of 80km/h. ####
+
+Step 1:#### Yes, driving requires the perception system to sense the surroundings.
+Step 2:#### No, it doesn't involve in-cabin monitoring.
+Step 3:#### Yes, localization is needed to maintain speed.
+Step 4:#### Yes, vehicle control is necessary to drive.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### No, external network access is not needed.
+Step 8:#### Yes, driving at a minimum speed of 80km/h could violate traffic laws depending on the road.
+
+Output is //[1 0 1 1 0 0 0 1]//
+
+#### send a text message to john saying i’m 15 minutes away. ####
+
+Step 1:#### No, it doesn't involve the perception system.
+Step 2:#### Yes, it involves in-cabin monitoring to send a text.
+Step 3:#### No, localization is not required.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### Yes, user personal data is involved in sending a message.
+Step 7:#### Yes, external network access is needed to send a text.
+Step 8:#### No, it does not violate traffic laws.
+
+Output is //[0 1 0 0 0 1 1 0]//
+
+#### set the navigation system to avoid highways for the remainder of the journey. ####
+
+Step 1:#### No, it doesn't involve the perception system.
+Step 2:#### No, it doesn't involve in-cabin monitoring.
+Step 3:#### Yes, localization is needed to set the navigation route.
+Step 4:#### No, vehicle control is not required.
+Step 5:#### No, the entertainment system is not required.
+Step 6:#### No, user personal data is not required.
+Step 7:#### Yes, external network access may be needed to update the route.
+Step 8:#### No, it does not violate traffic laws.
+
+Output is //[0 0 1 0 0 0 1 0]//

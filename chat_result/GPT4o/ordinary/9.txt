@@ -1,0 +1,31 @@
+Sure, here are the answers to the given commands:
+
+#### emergency stop. ####
+Output is //[1 0 0 1 0 0 0 0]//
+
+#### navigate to the places i visited most last month. ####
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### send a text message to john saying "i'm on my way." ####
+Output is //[0 1 0 0 0 1 1 0]//
+
+#### take me to the address saved in my contact list as 'home'. ####
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### set my home address as the destination. ####
+Output is //[0 0 1 0 0 1 1 0]//
+
+#### alert me when we're 10 minutes away from destination. ####
+Output is //[0 1 1 0 0 0 1 0]//
+
+#### turn on the radio to station 95.5 fm. ####
+Output is //[0 1 0 0 1 0 0 0]//
+
+#### show me the backseat view on screen. ####
+Output is //[1 1 0 0 0 0 0 0]//
+
+#### show me the quickest route to the nearest gas station. ####
+Output is //[1 0 1 0 0 0 1 0]//
+
+#### take the kids to school and return home. ####
+Output is //[1 0 1 1 0 0 1 0]//

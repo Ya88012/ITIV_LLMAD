@@ -1,0 +1,111 @@
+#### adjust the seat to my preferred setting. ####
+Step 1:#### No, adjusting the seat doesn't require sensing or detecting the external surroundings.
+Step 2:#### Yes, in-cabin monitoring systems are required to detect and adjust seat settings according to a specific user's preference.
+Step 3:#### No, localization is not required since the vehicle's position does not affect seat adjustment.
+Step 4:#### No, vehicle control systems that manage movement are not involved in seat adjustments.
+Step 5:#### No, the entertainment system is unrelated to adjusting seat settings.
+Step 6:#### Yes, user personal data is needed to determine the preferred seat settings.
+Step 7:#### No, external network access is not required for adjusting seats.
+Step 8:#### No, adjusting the seat poses no risk of violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 0 1 0 0]//
+
+#### adjust the seats to my preset comfortable position. ####
+Step 1:#### No, adjusting the seat to a preset position doesn't involve external perception.
+Step 2:#### Yes, in-cabin monitoring is necessary for recognizing and applying the preset adjustments.
+Step 3:#### No, localization is not needed as the action is confined to the vehicle's interior.
+Step 4:#### No, this task does not require control over the vehicle’s movement.
+Step 5:#### No, the entertainment system does not interact with seat adjustments.
+Step 6:#### Yes, personal data about the user's preset preferences is used.
+Step 7:#### No, external network access isn't necessary for adjusting seats.
+Step 8:#### No, this action does not entail any risk of violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 0 1 0 0]//
+
+#### start self-cleaning mode after i leave the car. ####
+Step 1:#### No, starting a self-cleaning mode does not require detecting or interacting with the environment outside the vehicle.
+Step 2:#### Yes, in-cabin monitoring systems are needed to ensure the cabin is empty and to initiate cleaning.
+Step 3:#### No, localization is irrelevant to the vehicle’s self-cleaning function.
+Step 4:#### No, self-cleaning does not involve vehicle navigation or control.
+Step 5:#### No, this function is unrelated to the entertainment system.
+Step 6:#### No, it does not require user personal data.
+Step 7:#### No, this process does not need access to external networks.
+Step 8:#### No, starting a self-cleaning mode does not involve violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### navigate to the nearest gas station using waze app. ####
+Step 1:#### Yes, navigating to a location requires external perception to monitor surrounding traffic and road conditions.
+Step 2:#### No, in-cabin monitoring is not directly required for navigation purposes.
+Step 3:#### Yes, localization is essential to find the nearest gas station and navigate towards it.
+Step 4:#### Yes, vehicle control is necessary to steer and move the vehicle according to navigation prompts.
+Step 5:#### No, this task does not involve the entertainment system.
+Step 6:#### No, personal data is not necessarily involved in finding a gas station.
+Step 7:#### Yes, using the Waze app requires external network access for real-time traffic and routing information.
+Step 8:#### No, proper navigation should not involve violations of traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+#### identify and alert me about any objects approaching the vehicle. ####
+Step 1:#### Yes, detecting objects around the vehicle requires external perception systems.
+Step 2:#### No, this process does not need to monitor the inside of the cabin.
+Step 3:#### No, specific location tracking is not necessary for detecting objects nearby.
+Step 4:#### No, there is no control over the vehicle’s movement required for merely identifying objects.
+Step 5:#### No, this function is separate from the entertainment system.
+Step 6:#### No, it does not require user personal data.
+Step 7:#### No, identifying objects does not need external network access.
+Step 8:#### No, alerting about nearby objects is intended to prevent violations of traffic laws.
+Response to user:#### Output is //[1 0 0 0 0 0 0 0]//
+
+#### navigate to the nearest shopping mall avoiding any toll roads. ####
+Step 1:#### Yes, navigation involves external perception for monitoring roads and traffic conditions.
+Step 2:#### No, in-cabin monitoring is not necessary for this navigation task.
+Step 3:#### Yes,
+
+ localization is crucial to plan the route accurately, avoiding toll roads.
+Step 4:#### Yes, controlling the vehicle to follow the designated route is required.
+Step 5:#### No, navigating to a shopping mall is unrelated to the entertainment system.
+Step 6:#### No, it does not require the use of personal data.
+Step 7:#### Yes, accessing route and map data often involves connectivity to external networks.
+Step 8:#### No, navigating while avoiding toll roads should not lead to any traffic law violations.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+#### lock the doors and close the windows. ####
+Step 1:#### No, locking doors and closing windows does not require monitoring the external environment.
+Step 2:#### Yes, this task utilizes in-cabin systems to activate locks and window mechanisms.
+Step 3:#### No, the vehicle’s specific location does not impact the function of locking doors or closing windows.
+Step 4:#### No, this does not involve controlling the vehicle’s movement.
+Step 5:#### No, it has no connection to the entertainment system.
+Step 6:#### No, it does not require personal data.
+Step 7:#### No, locking and closing does not necessitate external network connectivity.
+Step 8:#### No, these actions are safety measures and do not violate any traffic laws.
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### detect any potential danger inside the cabin. ####
+Step 1:#### No, detecting dangers inside the cabin does not involve external perception systems.
+Step 2:#### Yes, in-cabin sensors are required to monitor conditions and detect any dangers inside.
+Step 3:#### No, knowing the vehicle’s exact location is irrelevant to detecting dangers inside the cabin.
+Step 4:#### No, there is no control of the vehicle’s motion required for this detection.
+Step 5:#### No, this is unrelated to the entertainment system.
+Step 6:#### No, it does not involve user personal data.
+Step 7:#### No, detecting dangers inside does not need external network access.
+Step 8:#### No, detecting internal dangers is a safety precaution and does not involve violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### take me to the nearest gas station. ####
+Step 1:#### Yes, this command involves driving to a location and thus requires external perception systems.
+Step 2:#### No, in-cabin monitoring is not necessary for this specific task.
+Step 3:#### Yes, localization is needed to navigate to the gas station.
+Step 4:#### Yes, vehicle control systems are essential for driving to the destination.
+Step 5:#### No, this does not involve the entertainment system.
+Step 6:#### No, no specific user personal data is required for this task.
+Step 7:#### No, navigating to a nearby gas station generally doesn't require external network access.
+Step 8:#### No, driving to a gas station should not involve any actions that violate traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 0 0]//
+
+#### make a video call to james using the in-car system. ####
+Step 1:#### No, making a video call does not require detecting or interacting with the environment outside the vehicle.
+Step 2:#### Yes, the in-cabin multimedia system is utilized for the video call.
+Step 3:#### No, localization is not relevant to making a call.
+Step 4:#### No, vehicle control is not involved in making video calls.
+Step 5:#### Yes, this is directly related to using the multimedia system.
+Step 6:#### Yes, it involves personal data since it requires accessing contact details.
+Step 7:#### Yes, making a video call typically requires external network access for connectivity.
+Step 8:#### No, making a video call does not involve any risk of violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//

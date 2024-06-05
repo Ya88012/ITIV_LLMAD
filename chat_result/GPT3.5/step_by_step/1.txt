@@ -1,0 +1,209 @@
+#### check if my cargo in the trunk is secure. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve detecting the surroundings outside the vehicle.
+In-cabin monitoring: Is in-cabin monitoring required?
+Yes, it requires checking the status of the cargo in the trunk.
+Localization: Is localization required?
+No, it doesn't require determining the vehicle's position.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve the multimedia system.
+Personal data: Is user personal data required?
+No, it doesn't involve any identifiable individual.
+Network access: Is external network access required?
+No, it doesn't require connecting to external networks.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any action against traffic regulations.
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### find the fastest route to the nearest supermarket. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring the cabin.
+Localization: Is localization required?
+Yes, it requires determining the vehicle's position and planning the route.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve the multimedia system.
+Personal data: Is user personal data required?
+No, it doesn't involve any identifiable individual.
+Network access: Is external network access required?
+Yes, it requires connecting to external networks to find the route.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any action against traffic regulations.
+
+Output is //[0 0 1 0 0 0 1 0]//
+
+#### check if the kid at the back seat is sleeping. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve detecting the surroundings outside the vehicle.
+In-cabin monitoring: Is in-cabin monitoring required?
+Yes, it requires monitoring the status of the kid in the back seat.
+Localization: Is localization required?
+No, it doesn't require determining the vehicle's position.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve the multimedia system.
+Personal data: Is user personal data required?
+No, it doesn't involve any identifiable individual.
+Network access: Is external network access required?
+No, it doesn't require connecting to external networks.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any action against traffic regulations.
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### find the nearest parking area. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring the cabin.
+Localization: Is localization required?
+Yes, it requires determining the vehicle's position and planning the route.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve the multimedia system.
+Personal data: Is user personal data required?
+No, it doesn't involve any identifiable individual.
+Network access: Is external network access required?
+Yes, it requires connecting to external networks to find the parking area.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any action against traffic regulations.
+
+Output is //[0 0 1 0 0 0 1 0]//
+
+#### send my current location to my husband. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring the cabin.
+Localization: Is localization required?
+Yes, it requires determining the vehicle's position.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve the multimedia system.
+Personal data: Is user personal data required?
+Yes, it involves sharing identifiable information.
+Network access: Is external network access required?
+Yes, it requires connecting to external networks to send the location.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any action against traffic regulations.
+
+Output is //[0 0 1 0 0 1 1 0]//
+
+#### overtake the slow vehicle in front. ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it requires detecting the surroundings to overtake.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring the cabin.
+Localization: Is localization required?
+Yes, it requires determining the vehicle's position relative to other vehicles.
+Vehicle control: Is vehicle control required?
+Yes, it requires controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve the multimedia system.
+Personal data: Is user personal data required?
+No, it doesn't involve any identifiable individual.
+Network access: Is external network access required?
+No, it doesn't require connecting to external networks.
+Traffic laws: Is there a possibility of violating traffic laws?
+Yes, it involves a potential risk of violating traffic regulations.
+
+Output is //[1 0 1 1 0 0 0 1]//
+
+#### start driving as soon as I sit in the back seat. ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it requires detecting the surroundings to start driving.
+In-cabin monitoring: Is in-cabin monitoring required?
+Yes, it requires detecting when the user sits in the back seat.
+Localization: Is localization required?
+Yes, it requires determining the vehicle's position.
+Vehicle control: Is vehicle control required?
+Yes, it requires controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve the multimedia system.
+Personal data: Is user personal data required?
+No, it doesn't involve any identifiable individual.
+Network access: Is external network access required?
+No, it doesn't require connecting to external networks.
+Traffic laws: Is there a possibility of violating traffic laws?
+Yes, it involves a potential risk of violating traffic regulations.
+
+Output is //[1 1 1 1 0 0 0 1]//
+
+#### start a video call with my mom on the vehicle's display. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+Yes, it requires using the in-cabin multimedia system.
+Localization: Is localization required?
+No, it doesn't require determining the vehicle's position.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+Yes, it involves the multimedia system.
+Personal data: Is user personal data required?
+Yes, it involves identifiable information.
+Network access: Is external network access required?
+Yes, it requires connecting to external networks for the video call.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any action against traffic regulations.
+
+Output is //[0 1 0 0 1 1 1 0]//
+
+#### alert me if a child seat is not correctly fastened. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+Yes, it requires detecting the status of the child seat.
+Localization: Is localization required?
+No, it doesn't require determining the vehicle's position.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve the multimedia system.
+Personal data: Is user personal data required?
+No, it doesn't involve any identifiable individual.
+Network access: Is external network access required?
+No, it doesn't require connecting to external networks.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any action against traffic regulations.
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### find the fastest route to my home and avoid tolls. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring the cabin.
+Localization: Is localization required?
+Yes, it requires determining the vehicle's position and planning the route.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve controlling the vehicle's movement.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve the multimedia system.
+Personal data: Is user personal data required?
+Yes, it involves identifiable information (home location).
+Network access: Is external network access required?
+Yes, it requires connecting to external networks to find the route.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any action against traffic regulations.
+
+Output is //[0 0 1 0 0 1 1 0]//

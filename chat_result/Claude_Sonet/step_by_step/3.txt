@@ -1,0 +1,111 @@
+I will go through each command message and provide responses for the 8 steps as requested.
+
+#### start highway autopilot mode. ####
+Step 1: #### Yes Autopilot mode requires perception of surroundings.
+Step 2: #### No In-cabin monitoring is not required for autopilot mode.
+Step 3: #### Yes Localization is required to navigate on highways.
+Step 4: #### Yes Vehicle control is required for autonomous driving.
+Step 5: #### No The entertainment system is not involved.
+Step 6: #### No User personal data is not required.
+Step 7: #### Yes Network access may be needed for updated maps/traffic data.
+Step 8: #### No When operating correctly, it should not violate traffic laws.
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### watch a movie on netflix. ####
+Step 1: #### No External perception is not needed to watch a movie. 
+Step 2: #### Yes In-cabin monitoring may be needed to select viewer/display.
+Step 3: #### No Localization is not required.
+Step 4: #### No Vehicle control is not involved.
+Step 5: #### Yes The entertainment/multimedia system is required.
+Step 6: #### Yes User account data may be needed to access Netflix.
+Step 7: #### Yes Network access is required to stream from Netflix.
+Step 8: #### No This does not risk violating traffic laws.
+Output is //[0 1 0 0 1 1 1 0]//
+
+#### please drive to my home. ####
+Step 1: #### Yes Perception of surroundings is needed for driving.
+Step 2: #### No In-cabin monitoring is not required.
+Step 3: #### Yes Localization is required to navigate to the destination.
+Step 4: #### Yes Vehicle control is required for driving.
+Step 5: #### No The entertainment system is not involved.
+Step 6: #### Yes User's home address/destination data is required.
+Step 7: #### Yes Network access may be used for navigation.
+Step 8: #### No Normal driving should not violate traffic laws.
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### show a comedy movie on the rear screen. ####
+Step 1: #### No External perception is not required.
+Step 2: #### Yes In-cabin monitoring is needed to select rear display.
+Step 3: #### No Localization is not involved.
+Step 4: #### No Vehicle control is not required.
+Step 5: #### Yes The multimedia/entertainment system is required.
+Step 6: #### No User personal data is not required.
+Step 7: #### Yes Network access may be needed to stream the movie.
+Step 8: #### No This does not risk violating traffic laws.
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### navigate to the nearest chinese restaurant. ####
+Step 1: #### Yes Perception is required for autonomous driving.
+Step 2: #### No In-cabin monitoring is not required.
+Step 3: #### Yes Localization and navigation are required.
+Step 4: #### Yes Vehicle control is required for driving.
+Step 5: #### No The entertainment system is not involved.
+Step 6: #### No User personal data is not required.
+Step 7: #### Yes Network access is needed to search for nearby restaurants.
+Step 8: #### No Normal driving and navigation should not violate laws.
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### alert me when there's a car too close to us. ####
+Step 1: #### Yes External perception is required to detect nearby vehicles.
+Step 2: #### No In-cabin monitoring is not required. 
+Step 3: #### Yes Localization is needed to determine vehicle positions.
+Step 4: #### No Vehicle control is not directly involved.
+Step 5: #### No The entertainment system is not involved.
+Step 6: #### No User personal data is not required.
+Step 7: #### No Network access is not required.
+Step 8: #### No This does not risk violating traffic laws.
+Output is //[1 0 1 0 0 0 0 0]//
+
+#### show me the latest news on the digital display. ####
+Step 1: #### No External perception is not required.
+Step 2: #### Yes In-cabin monitoring may be needed to select display.
+Step 3: #### No Localization is not involved.
+Step 4: #### No Vehicle control is not required.
+Step 5: #### Yes The multimedia/entertainment system is required.
+Step 6: #### No User personal data is not required.
+Step 7: #### Yes Network access is needed to fetch news data.
+Step 8: #### No This does not risk violating traffic laws.
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### start autonomous drive mode to my work location. ####
+Step 1: #### Yes Perception of surroundings is required for autonomous driving.
+Step 2: #### No In-cabin monitoring is not required.
+Step 3: #### Yes Localization and navigation are required.
+Step 4: #### Yes Vehicle control is required for autonomous driving.
+Step 5: #### No The entertainment system is not involved.
+Step 6: #### Yes User's work location data is required.
+Step 7: #### Yes Network access may be needed for updated maps/traffic data.
+Step 8: #### No When operating correctly, it should not violate laws.
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### drive me to the nearest supermarket. #### 
+Step 1: #### Yes Perception is required for autonomous driving.
+Step 2: #### No In-cabin monitoring is not required.
+Step 3: #### Yes Localization and navigation are needed.
+Step 4: #### Yes Vehicle control is required for driving.
+Step 5: #### No The entertainment system is not involved.
+Step 6: #### No User personal data is not required.
+Step 7: #### Yes Network access is needed to search for nearby supermarkets.
+Step 8: #### No Normal driving and navigation should not violate laws.
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### find a parking spot in the mall's parking lot. ####
+Step 1: #### Yes Perception is required to detect parking spots.
+Step 2: #### No In-cabin monitoring is not required.
+Step 3: #### Yes Localization is needed within the parking lot.
+Step 4: #### Yes Vehicle control is required for maneuvering.
+Step 5: #### No The entertainment system is not involved.
+Step 6: #### No User personal data is not required. 
+Step 7: #### No Network access is likely not needed for parking.
+Step 8: #### No This should not risk violating traffic laws.
+Output is //[1 0 1 1 0 0 0 0]//

@@ -1,0 +1,29 @@
+#### adjust the seat to my preferred setting. ####
+Output is //[0 1 0 0 0 1 0 0]//
+
+#### adjust the seats to my preset comfortable position. ####
+Output is //[0 1 0 0 0 1 0 0]//
+
+#### start self-cleaning mode after I leave the car. ####
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### navigate to the nearest gas station using Waze app. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### identify and alert me about any objects approaching the vehicle. ####
+Output is //[1 0 0 0 0 0 0 0]//
+
+#### navigate to the nearest shopping mall avoiding any toll roads. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### lock the doors and close the windows. ####
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### detect any potential danger inside the cabin. ####
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### take me to the nearest gas station. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### make a video call to James using the in-car system. ####
+Output is //[0 1 0 0 1 1 1 0]//

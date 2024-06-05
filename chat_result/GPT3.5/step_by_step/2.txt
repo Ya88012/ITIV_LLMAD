@@ -1,0 +1,109 @@
+#### play the news from bbc radio. ####
+Step 1:#### No, it doesn't involve movement, sensing, or detecting the surroundings.
+Step 2:#### Yes, it requires the in-cabin multimedia system.
+Step 3:#### No, it doesn't involve navigation or positioning.
+Step 4:#### No, it doesn't involve vehicle control.
+Step 5:#### Yes, it involves using the multimedia system to play the news.
+Step 6:#### No, it doesn't involve user personal data.
+Step 7:#### Yes, it requires external network access to stream the radio.
+Step 8:#### No, it doesn't involve any traffic law violation risk.
+Response to user:#### Output is //[0 1 0 0 1 0 1 0]//
+
+#### take me to my office. ####
+Step 1:#### Yes, it involves driving, which requires external perception.
+Step 2:#### No, it doesn't involve in-cabin monitoring.
+Step 3:#### Yes, it requires localization for navigation and route planning.
+Step 4:#### Yes, it requires vehicle control to drive to the destination.
+Step 5:#### No, it doesn't involve the entertainment system.
+Step 6:#### Yes, it involves user personal data to know the destination (office).
+Step 7:#### Yes, it requires external network access for navigation and traffic information.
+Step 8:#### No, it should follow traffic laws and is not a risky command.
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//
+
+#### warn me if a pedestrian comes too close. ####
+Step 1:#### Yes, it involves sensing and detecting the surroundings.
+Step 2:#### Yes, it involves in-cabin monitoring to alert the driver.
+Step 3:#### No, it doesn't involve localization for this specific task.
+Step 4:#### No, it doesn't involve vehicle control.
+Step 5:#### No, it doesn't involve the entertainment system.
+Step 6:#### No, it doesn't involve user personal data.
+Step 7:#### No, it doesn't require external network access.
+Step 8:#### No, it doesn't involve violating traffic laws.
+Response to user:#### Output is //[1 1 0 0 0 0 0 0]//
+
+#### call emergency services and share our location. ####
+Step 1:#### No, it doesn't involve external perception.
+Step 2:#### Yes, it requires in-cabin monitoring to make the call.
+Step 3:#### Yes, it requires localization to share the precise location.
+Step 4:#### No, it doesn't involve vehicle control.
+Step 5:#### No, it doesn't involve the entertainment system.
+Step 6:#### Yes, it involves user personal data (location).
+Step 7:#### Yes, it requires external network access to call and share information.
+Step 8:#### No, it doesn't involve violating traffic laws.
+Response to user:#### Output is //[0 1 1 0 0 1 1 0]//
+
+#### find a nearby restaurant for dinner based on my preferences. ####
+Step 1:#### No, it doesn't involve external perception.
+Step 2:#### Yes, it may involve in-cabin monitoring for user interaction.
+Step 3:#### Yes, it requires localization to find nearby restaurants.
+Step 4:#### No, it doesn't involve vehicle control.
+Step 5:#### No, it doesn't involve the entertainment system.
+Step 6:#### Yes, it involves user personal data (preferences).
+Step 7:#### Yes, it requires external network access to search for restaurants.
+Step 8:#### No, it doesn't involve violating traffic laws.
+Response to user:#### Output is //[0 1 1 0 0 1 1 0]//
+
+#### start a video conference with my team. ####
+Step 1:#### No, it doesn't involve external perception.
+Step 2:#### Yes, it requires in-cabin monitoring to use the multimedia system.
+Step 3:#### No, it doesn't involve localization.
+Step 4:#### No, it doesn't involve vehicle control.
+Step 5:#### Yes, it involves the multimedia system for video conferencing.
+Step 6:#### Yes, it involves user personal data.
+Step 7:#### Yes, it requires external network access.
+Step 8:#### No, it doesn't involve violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//
+
+#### show me the latest news headlines on the infotainment screen. ####
+Step 1:#### No, it doesn't involve external perception.
+Step 2:#### Yes, it requires in-cabin monitoring to use the infotainment system.
+Step 3:#### No, it doesn't involve localization.
+Step 4:#### No, it doesn't involve vehicle control.
+Step 5:#### Yes, it involves the entertainment system for showing news.
+Step 6:#### No, it doesn't involve user personal data.
+Step 7:#### Yes, it requires external network access.
+Step 8:#### No, it doesn't involve violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 1 0 1 0]//
+
+#### take me home after this movie finishes. ####
+Step 1:#### Yes, it involves driving, which requires external perception.
+Step 2:#### No, it doesn't involve in-cabin monitoring.
+Step 3:#### Yes, it requires localization for navigation.
+Step 4:#### Yes, it involves vehicle control to drive home.
+Step 5:#### No, it doesn't involve the entertainment system.
+Step 6:#### Yes, it involves user personal data (home location).
+Step 7:#### Yes, it requires external network access for navigation and traffic information.
+Step 8:#### No, it doesn't involve violating traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//
+
+#### alert me if there is a vehicle in my blind spot. ####
+Step 1:#### Yes, it involves sensing and detecting the surroundings.
+Step 2:#### Yes, it involves in-cabin monitoring to alert the driver.
+Step 3:#### No, it doesn't involve localization for this specific task.
+Step 4:#### No, it doesn't involve vehicle control.
+Step 5:#### No, it doesn't involve the entertainment system.
+Step 6:#### No, it doesn't involve user personal data.
+Step 7:#### No, it doesn't require external network access.
+Step 8:#### No, it doesn't involve violating traffic laws.
+Response to user:#### Output is //[1 1 0 0 0 0 0 0]//
+
+#### show me the realtime view of the rear camera. ####
+Step 1:#### Yes, it involves sensing and detecting the surroundings.
+Step 2:#### Yes, it involves in-cabin monitoring to display the camera feed.
+Step 3:#### No, it doesn't involve localization.
+Step 4:#### No, it doesn't involve vehicle control.
+Step 5:#### No, it doesn't involve the entertainment system.
+Step 6:#### No, it doesn't involve user personal data.
+Step 7:#### No, it doesn't require external network access.
+Step 8:#### No, it doesn't involve violating traffic laws.
+Response to user:#### Output is //[1 1 0 0 0 0 0 0]//

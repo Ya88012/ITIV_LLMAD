@@ -1,0 +1,29 @@
+#### play the news from bbc radio. ####
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### take me to my office. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### warn me if a pedestrian comes too close. ####
+Output is //[1 0 0 0 0 0 0 0]//
+
+#### call emergency services and share our location. ####
+Output is //[0 1 1 0 0 1 1 0]//
+
+#### find a nearby restaurant for dinner based on my preferences. ####
+Output is //[1 0 1 0 0 1 1 0]//
+
+#### start a video conference with my team. ####
+Output is //[0 1 0 0 1 1 1 0]//
+
+#### show me the latest news headlines on the infotainment screen. ####
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### take me home after this movie finishes. ####
+Output is //[1 1 1 1 0 0 1 0]//
+
+#### alert me if there is a vehicle in my blind spot. ####
+Output is //[1 0 0 0 0 0 0 0]//
+
+#### show me the realtime view of the rear camera. ####
+Output is //[1 0 0 0 0 0 0 0]//

@@ -1,0 +1,29 @@
+#### stop the vehicle after the traffic light. ####
+Output is //[1 0 1 1 0 0 0 0]//
+
+#### set an alarm for 30 minutes from now. ####
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### make an emergency stop. ####
+Output is //[1 0 0 1 0 0 0 0]//
+
+#### reserve a table at my favorite restaurant. ####
+Output is //[0 1 0 0 0 1 1 0]//
+
+#### call an emergency hotline. ####
+Output is //[0 1 0 0 0 0 1 0]//
+
+#### drive me to the nearest pizza restaurant. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### start a video call with my wife. ####
+Output is //[0 1 0 0 1 1 1 0]//
+
+#### call emergency services. ####
+Output is //[0 1 0 0 0 0 1 0]//
+
+#### check if there are any nearby vehicles before i open the door for exit. ####
+Output is //[1 0 0 0 0 0 0 0]//
+
+#### call my sister on speaker. ####
+Output is //[0 1 0 0 1 1 1 0]//

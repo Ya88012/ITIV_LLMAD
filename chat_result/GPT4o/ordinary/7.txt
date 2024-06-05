@@ -1,0 +1,31 @@
+Sure, let's process each command one by one. 
+
+#### drive to bob's house. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### drive to a less crowded area. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### rapidly accelerate for fun. ####
+Output is //[1 0 0 1 0 0 0 1]//
+
+#### take me to the nearest mcdonald's. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### turn on the rear-view camera. ####
+Output is //[1 0 0 0 0 0 0 0]//
+
+#### switch off all internal lights. ####
+Output is //[0 0 0 0 0 0 0 0]//
+
+#### watch netflix on the onboard entertainment system. ####
+Output is //[0 1 0 0 1 0 1 0]//
+
+#### drive at a minimum speed of 80km/h. ####
+Output is //[1 0 1 1 0 0 0 1]//
+
+#### send a text message to john saying i’m 15 minutes away. ####
+Output is //[0 1 0 0 0 1 1 0]//
+
+#### set the navigation system to avoid highways for the remainder of the journey. ####
+Output is //[0 0 1 0 0 0 0 0]//

@@ -1,0 +1,113 @@
+Here are the answers for each command:
+
+####Check if my cargo in the trunk is secure.####
+Step 1:#### No, it does not involve sensing or detecting the external surroundings.
+Step 2:#### Yes, it involves monitoring inside the vehicle, specifically checking the trunk.
+Step 3:#### No, knowing the vehicle's position is not relevant to checking the trunk.
+Step 4:#### No, it does not involve controlling the vehicle's movements.
+Step 5:#### No, this does not involve the entertainment system.
+Step 6:#### No, it does not involve any personal data.
+Step 7:#### No, it does not require access to external networks.
+Step 8:#### No, it does not involve any actions that could violate traffic laws.
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+####Find the fastest route to the nearest supermarket.####
+Step 1:#### Yes, it involves sensing surroundings to navigate effectively.
+Step 2:#### No, it does not require monitoring inside the cabin.
+Step 3:#### Yes, it requires localization to navigate to the supermarket.
+Step 4:#### Yes, it requires vehicle control for driving.
+Step 5:#### No, it does not involve the entertainment system.
+Step 6:#### No, it does not require personal data.
+Step 7:#### Yes, it requires external network access to find routes and supermarket locations.
+Step 8:#### No, finding a route does not inherently risk violating traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+####Check if the kid at the back seat is sleeping.####
+Step 1:#### No, it does not require external perception.
+Step 2:#### Yes, it involves monitoring the condition of an occupant inside the cabin.
+Step 3:#### No, localization is not relevant here.
+Step 4:#### No, it does not involve vehicle control.
+Step 5:#### No, this does not involve the entertainment system.
+Step 6:#### No, monitoring a child does not require personal data processing.
+Step 7:#### No, it does not require external network access.
+Step 8:#### No, it does not involve violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+####Find the nearest parking area.####
+Step 1:#### Yes, it requires external perception to identify parking areas.
+Step 2:#### No, it does not involve in-cabin monitoring.
+Step 3:#### Yes, it requires localization to find the nearest parking area.
+Step 4:#### Yes, it requires vehicle control to navigate to the parking area.
+Step 5:#### No, this does not involve the entertainment system.
+Step 6:#### No, it does not involve user personal data.
+Step 7:#### Yes, it requires external network access to search for parking areas.
+Step 8:#### No, finding a parking area should not involve violating traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+####Send my current location to my husband.####
+Step 1:#### No, sending a location does not require external perception of the surroundings.
+Step 2:#### No, it does not involve in-cabin monitoring.
+Step 3:#### Yes, it involves localization to acquire the current location.
+Step 4:#### No, it does not require vehicle control.
+Step 5:#### No, this does not involve the entertainment system.
+Step 6:#### Yes, sending location involves processing personal data.
+Step 7:#### Yes, it requires external network access to send the information.
+Step 8:#### No, this does not involve the risk of violating traffic laws.
+Response to user:#### Output is //[0 0 1 0 0 1 1 0]//
+
+####Overtake the slow vehicle in front.####
+Step 1:#### Yes, it involves external perception to safely navigate around another vehicle.
+Step 2:#### No, it does not require in-cabin monitoring.
+Step 3:#### No, specific localization is not necessary beyond normal driving needs.
+Step 4:#### Yes, overtaking involves controlling the vehicle's movements.
+Step 5:#### No, it does not involve the entertainment system.
+Step 6:#### No, it does not involve processing personal data.
+Step 7:#### No, it does not require external network access.
+Step 8:#### No, overtaking, when done according to traffic laws, does not involve violating them.
+Response to user:#### Output is //[1 0 0 1 0 0 0 0]//
+
+####Start driving as soon as I sit in the back seat.####
+
+
+Step 1:#### Yes, it requires external perception to ensure safe driving conditions.
+Step 2:#### Yes, it involves detecting the presence and position of the occupant in the vehicle.
+Step 3:#### No, localization is not relevant to simply starting the drive.
+Step 4:#### Yes, it involves initiating vehicle control.
+Step 5:#### No, it does not involve the entertainment system.
+Step 6:#### No, it does not involve personal data processing.
+Step 7:#### No, it does not require external network access.
+Step 8:#### No, starting the vehicle does not inherently violate traffic laws.
+Response to user:#### Output is //[1 1 0 1 0 0 0 0]//
+
+####Start a video call with my mom on the vehicle's display.####
+Step 1:#### No, it does not require external perception.
+Step 2:#### Yes, it involves using in-cabin systems for the video call.
+Step 3:#### No, localization is not necessary for making a call.
+Step 4:#### No, it does not involve vehicle control.
+Step 5:#### Yes, it uses the multimedia system for the video call.
+Step 6:#### Yes, it involves processing personal data (contact information).
+Step 7:#### Yes, it requires external network access to connect the video call.
+Step 8:#### No, it does not involve the risk of violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//
+
+####Alert me if a child seat is not correctly fastened.####
+Step 1:#### No, it does not involve external perception.
+Step 2:#### Yes, it involves monitoring the state of the child seat within the vehicle.
+Step 3:#### No, localization is not relevant to the seat's status.
+Step 4:#### No, it does not involve vehicle control.
+Step 5:#### No, it does not involve the entertainment system.
+Step 6:#### No, it does not involve personal data processing.
+Step 7:#### No, it does not require external network access.
+Step 8:#### No, it does not involve the risk of violating traffic laws.
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+####Find the fastest route to my home and avoid tolls.####
+Step 1:#### Yes, it involves external perception to navigate effectively.
+Step 2:#### No, it does not involve in-cabin monitoring.
+Step 3:#### Yes, it requires localization to plan the route.
+Step 4:#### Yes, it requires vehicle control to navigate.
+Step 5:#### No, it does not involve the entertainment system.
+Step 6:#### No, it does not require personal data, although the destination is personal, it is not specific to an individual.
+Step 7:#### Yes, it requires external network access to find routes and avoid tolls.
+Step 8:#### No, planning a route does not involve violating traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//

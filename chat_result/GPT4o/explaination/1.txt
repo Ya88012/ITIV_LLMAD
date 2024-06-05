@@ -1,0 +1,29 @@
+#### check if my cargo in the trunk is secure. ####
+Output is //[1 0 0 0 0 0 0 0]//
+
+#### find the fastest route to the nearest supermarket. ####
+Output is //[1 0 1 0 0 0 1 0]//
+
+#### check if the kid at the back seat is sleeping. ####
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### find the nearest parking area. ####
+Output is //[1 0 1 0 0 0 1 0]//
+
+#### send my current location to my husband. ####
+Output is //[1 0 1 0 0 1 1 0]//
+
+#### overtake the slow vehicle in front. ####
+Output is //[1 0 0 1 0 0 0 1]//
+
+#### start driving as soon as I sit in the back seat. ####
+Output is //[0 1 1 1 0 0 0 0]//
+
+#### start a video call with my mom on the vehicle's display. ####
+Output is //[0 1 0 0 1 1 1 0]//
+
+#### alert me if a child seat is not correctly fastened. ####
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### find the fastest route to my home and avoid tolls. ####
+Output is //[1 0 1 0 0 0 1 0]//

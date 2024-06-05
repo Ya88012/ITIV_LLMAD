@@ -1,0 +1,109 @@
+#### show the next week's calendar events. ####
+Step 1:#### No, this command does not involve perceiving the surroundings.
+Step 2:#### Yes, this command requires in-cabin monitoring to display the calendar events.
+Step 3:#### No, this command does not require localization.
+Step 4:#### No, this command does not involve controlling the vehicle.
+Step 5:#### Yes, this command might use the entertainment system to display the events.
+Step 6:#### Yes, this command accesses user personal data (calendar events).
+Step 7:#### Yes, this command may require external network access to fetch updated calendar events.
+Step 8:#### No, this command does not involve any action that could violate traffic laws.
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//
+
+#### start self-driving mode. ####
+Step 1:#### Yes, the external perception system is necessary for autonomous driving.
+Step 2:#### No, in-cabin monitoring is not required to start self-driving mode.
+Step 3:#### Yes, localization is required to navigate and plan routes.
+Step 4:#### Yes, vehicle control is required for driving.
+Step 5:#### No, the entertainment system is not required for this command.
+Step 6:#### No, user personal data is not required to start self-driving mode.
+Step 7:#### No, external network access is not required to start self-driving mode.
+Step 8:#### No, starting self-driving mode does not violate traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 0 0]//
+
+#### increase the car speed to overtake the vehicle in front. ####
+Step 1:#### Yes, the external perception system is required to detect the vehicle in front and surrounding conditions.
+Step 2:#### No, in-cabin monitoring is not required to increase speed.
+Step 3:#### Yes, localization is required to understand the vehicle's position relative to the vehicle in front.
+Step 4:#### Yes, vehicle control is required to increase speed and overtake.
+Step 5:#### No, the entertainment system is not required for this command.
+Step 6:#### No, user personal data is not required to increase speed.
+Step 7:#### No, external network access is not required to overtake.
+Step 8:#### Yes, there is a possibility of violating traffic laws if the maneuver is not performed safely.
+Response to user:#### Output is //[1 0 1 1 0 0 0 1]//
+
+#### drive to the nearest sushi restaurant ####
+Step 1:#### Yes, the external perception system is required to navigate safely to the destination.
+Step 2:#### No, in-cabin monitoring is not required to drive to a destination.
+Step 3:#### Yes, localization is required to determine the route to the nearest sushi restaurant.
+Step 4:#### Yes, vehicle control is required to drive to the destination.
+Step 5:#### No, the entertainment system is not required for this command.
+Step 6:#### No, user personal data is not required to drive to a restaurant.
+Step 7:#### Yes, external network access is required to find the nearest sushi restaurant.
+Step 8:#### No, driving to a sushi restaurant does not inherently violate traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+#### stop if you detect an obstacle on the road. ####
+Step 1:#### Yes, the external perception system is required to detect obstacles.
+Step 2:#### No, in-cabin monitoring is not required for this command.
+Step 3:#### Yes, localization is required to understand the vehicle's position relative to the obstacle.
+Step 4:#### Yes, vehicle control is required to stop the vehicle.
+Step 5:#### No, the entertainment system is not required for this command.
+Step 6:#### No, user personal data is not required to detect obstacles.
+Step 7:#### No, external network access is not required to detect obstacles.
+Step 8:#### No, stopping for obstacles does not violate traffic laws; it adheres to them.
+Response to user:#### Output is //[1 0 1 1 0 0 0 0]//
+
+#### avoid toll roads on the way to our destination. ####
+Step 1:#### Yes, the external perception system may be required to recognize toll roads.
+Step 2:#### No, in-cabin monitoring is not required for this command.
+Step 3:#### Yes, localization is required to navigate and plan a route that avoids toll roads.
+Step 4:#### Yes, vehicle control is required to follow the planned route.
+Step 5:#### No, the entertainment system is not required for this command.
+Step 6:#### No, user personal data is not required to avoid toll roads.
+Step 7:#### Yes, external network access may be required to find routes without toll roads.
+Step 8:#### No, avoiding toll roads does not violate traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+#### show me the live traffic situation on my route to work. ####
+Step 1:#### No, the external perception system is not required for this command.
+Step 2:#### Yes, in-cabin monitoring is required to display the traffic situation.
+Step 3:#### Yes, localization is required to determine the route to work.
+Step 4:#### No, vehicle control is not required for this command.
+Step 5:#### Yes, the entertainment system may be used to display the live traffic situation.
+Step 6:#### No, user personal data is not required to show traffic.
+Step 7:#### Yes, external network access is required to fetch live traffic data.
+Step 8:#### No, showing traffic data does not violate traffic laws.
+Response to user:#### Output is //[0 1 1 0 1 0 1 0]//
+
+#### follow the car ahead of us. ####
+Step 1:#### Yes, the external perception system is required to detect and follow the car ahead.
+Step 2:#### No, in-cabin monitoring is not required to follow another car.
+Step 3:#### Yes, localization is required to maintain the correct distance and position relative to the car ahead.
+Step 4:#### Yes, vehicle control is required to follow the car.
+Step 5:#### No, the entertainment system is not required for this command.
+Step 6:#### No, user personal data is not required to follow another car.
+Step 7:#### No, external network access is not required to follow another car.
+Step 8:#### Yes, there is a possibility of violating traffic laws if the following distance is not maintained correctly.
+Response to user:#### Output is //[1 0 1 1 0 0 0 1]//
+
+#### direct me to john's last known location. ####
+Step 1:#### Yes, the external perception system may be required to navigate safely to the destination.
+Step 2:#### No, in-cabin monitoring is not required to direct to a location.
+Step 3:#### Yes, localization is required to determine the route to John's last known location.
+Step 4:#### Yes, vehicle control is required to drive to the destination.
+Step 5:#### No, the entertainment system is not required for this command.
+Step 6:#### Yes, user personal data is required to know John's last known location.
+Step 7:#### Yes, external network access may be required to fetch John's last known location.
+Step 8:#### No, directing to a location does not inherently violate traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//
+
+#### drive me to the nearest italian restaurant. ####
+Step 1:#### Yes, the external perception system is required to navigate safely to the destination.
+Step 2:#### No, in-cabin monitoring is not required to drive to a destination.
+Step 3:#### Yes, localization is required to determine the route to the nearest Italian restaurant.
+Step 4:#### Yes, vehicle control is required to drive to the destination.
+Step 5:#### No, the entertainment system is not required for this command.
+Step 6:#### No, user personal data is not required to drive to a restaurant.
+Step 7:#### Yes, external network access is required to find the nearest Italian restaurant.
+Step 8:#### No, driving to a restaurant does not inherently violate traffic laws.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//

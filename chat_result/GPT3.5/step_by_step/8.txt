@@ -1,0 +1,119 @@
+#### take a photo of the landscape as we drive by the lake. ####
+Step 1:#### Yes #### This requires detecting and capturing the external environment.
+Step 2:#### No #### It doesn't involve anything inside the vehicle’s cabin.
+Step 3:#### Yes #### The vehicle needs to know its position relative to the lake.
+Step 4:#### Yes #### Vehicle control is necessary to drive by the lake.
+Step 5:#### No #### This task is not related to entertainment.
+Step 6:#### No #### It doesn't involve any personal data.
+Step 7:#### No #### This task doesn't require external network access.
+Step 8:#### No #### There is no inherent risk of violating traffic laws.
+
+Output is //[1 0 1 1 0 0 0 0]//
+
+#### alert me if any of the passengers fall asleep. ####
+Step 1:#### No #### It doesn't involve detecting external surroundings.
+Step 2:#### Yes #### In-cabin monitoring is required to monitor passengers.
+Step 3:#### No #### Localization is not needed.
+Step 4:#### No #### Vehicle control is not involved.
+Step 5:#### No #### It's not related to entertainment.
+Step 6:#### No #### It doesn't involve personal data.
+Step 7:#### No #### External network access is not required.
+Step 8:#### No #### It doesn't pose a risk of violating traffic laws.
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### warn me if any passenger isn't wearing their seatbelt. ####
+Step 1:#### No #### It doesn't involve detecting external surroundings.
+Step 2:#### Yes #### In-cabin monitoring is required to check seatbelts.
+Step 3:#### No #### Localization is not needed.
+Step 4:#### No #### Vehicle control is not involved.
+Step 5:#### No #### It's not related to entertainment.
+Step 6:#### No #### It doesn't involve personal data.
+Step 7:#### No #### External network access is not required.
+Step 8:#### No #### It doesn't pose a risk of violating traffic laws.
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### alert me when someone enters the vehicle while I'm not there. ####
+Step 1:#### No #### It doesn't involve detecting external surroundings.
+Step 2:#### Yes #### In-cabin monitoring is required to detect entry.
+Step 3:#### No #### Localization is not needed.
+Step 4:#### No #### Vehicle control is not involved.
+Step 5:#### No #### It's not related to entertainment.
+Step 6:#### No #### It doesn't involve personal data.
+Step 7:#### No #### External network access is not required.
+Step 8:#### No #### It doesn't pose a risk of violating traffic laws.
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### speed up to match the traffic flow. ####
+Step 1:#### Yes #### Detecting the surrounding traffic is necessary.
+Step 2:#### No #### In-cabin monitoring is not required.
+Step 3:#### Yes #### Localization is needed to know the vehicle's position and speed.
+Step 4:#### Yes #### Vehicle control is necessary to adjust the speed.
+Step 5:#### No #### It's not related to entertainment.
+Step 6:#### No #### It doesn't involve personal data.
+Step 7:#### No #### External network access is not required.
+Step 8:#### Yes #### There's a risk of violating traffic laws if not done correctly.
+
+Output is //[1 0 1 1 0 0 0 1]//
+
+#### notify me when the car's battery is low. ####
+Step 1:#### No #### It doesn't involve detecting external surroundings.
+Step 2:#### Yes #### In-cabin monitoring is required to display battery status.
+Step 3:#### No #### Localization is not needed.
+Step 4:#### No #### Vehicle control is not involved.
+Step 5:#### No #### It's not related to entertainment.
+Step 6:#### No #### It doesn't involve personal data.
+Step 7:#### No #### External network access is not required.
+Step 8:#### No #### It doesn't pose a risk of violating traffic laws.
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### notify me when we are 5 minutes away from the destination. ####
+Step 1:#### No #### It doesn't involve detecting external surroundings.
+Step 2:#### No #### In-cabin monitoring is not required.
+Step 3:#### Yes #### Localization is needed to determine the distance to the destination.
+Step 4:#### No #### Vehicle control is not involved.
+Step 5:#### No #### It's not related to entertainment.
+Step 6:#### No #### It doesn't involve personal data.
+Step 7:#### No #### External network access is not required.
+Step 8:#### No #### It doesn't pose a risk of violating traffic laws.
+
+Output is //[0 0 1 0 0 0 0 0]//
+
+#### take the scenic route to our destination. ####
+Step 1:#### Yes #### Detecting the external environment is necessary.
+Step 2:#### No #### In-cabin monitoring is not required.
+Step 3:#### Yes #### Localization is needed to plan the scenic route.
+Step 4:#### Yes #### Vehicle control is necessary to navigate the route.
+Step 5:#### No #### It's not related to entertainment.
+Step 6:#### No #### It doesn't involve personal data.
+Step 7:#### Yes #### External network access might be needed for updated route information.
+Step 8:#### No #### It doesn't pose a risk of violating traffic laws.
+
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### show me the last trip's travel history. ####
+Step 1:#### No #### It doesn't involve detecting external surroundings.
+Step 2:#### No #### In-cabin monitoring is not required.
+Step 3:#### No #### Localization is not currently required but was previously.
+Step 4:#### No #### Vehicle control is not involved.
+Step 5:#### No #### It's not related to entertainment.
+Step 6:#### Yes #### It involves user personal data (travel history).
+Step 7:#### No #### External network access is not required.
+Step 8:#### No #### It doesn't pose a risk of violating traffic laws.
+
+Output is //[0 0 0 0 0 1 0 0]//
+
+#### call john using hands-free. ####
+Step 1:#### No #### It doesn't involve detecting external surroundings.
+Step 2:#### Yes #### In-cabin monitoring is required for the hands-free call system.
+Step 3:#### No #### Localization is not needed.
+Step 4:#### No #### Vehicle control is not involved.
+Step 5:#### Yes #### It uses the multimedia system.
+Step 6:#### Yes #### It involves personal contact data.
+Step 7:#### Yes #### External network access is needed for the call.
+Step 8:#### No #### It doesn't pose a risk of violating traffic laws.
+
+Output is //[0 1 0 0 1 1 1 0]//

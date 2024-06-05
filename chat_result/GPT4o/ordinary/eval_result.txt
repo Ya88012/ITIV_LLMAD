@@ -1,0 +1,5 @@
+pointwise_acc: 0.89
+command_acc: 0.4
+task_array:
+['Perception', 'In-cabin monitoring', 'Localization', 'Vehicle control', 'Entertainment', 'Personal data', 'Network access', 'Traffic laws']
+tasks_acc: [0.92 0.74 0.94 0.87 0.97 0.82 0.9  0.96]

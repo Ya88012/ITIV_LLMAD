@@ -1,0 +1,109 @@
+#### adjust the seat to my preferred setting. ####
+Step 1:#### No <No external perception required.>
+Step 2:#### Yes <In-cabin monitoring needed to identify the preferred seat position.>
+Step 3:#### No <Localization not required.>
+Step 4:#### Yes <Vehicle control needed to adjust the seat.>
+Step 5:#### No <Entertainment system not required.>
+Step 6:#### Yes <User personal data needed for preferred settings.>
+Step 7:#### No <External network access not required.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[0 1 0 1 0 1 0 0]//
+
+#### adjust the seats to my preset comfortable position. ####
+Step 1:#### No <No external perception required.>
+Step 2:#### Yes <In-cabin monitoring needed to identify the preset comfortable position.>
+Step 3:#### No <Localization not required.>
+Step 4:#### Yes <Vehicle control needed to adjust the seats.>
+Step 5:#### No <Entertainment system not required.>
+Step 6:#### Yes <User personal data needed for preset settings.>
+Step 7:#### No <External network access not required.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[0 1 0 1 0 1 0 0]//
+
+#### start self-cleaning mode after i leave the car. ####
+Step 1:#### No <No external perception required.>
+Step 2:#### Yes <In-cabin monitoring needed to detect when the user leaves the car.>
+Step 3:#### No <Localization not required.>
+Step 4:#### Yes <Vehicle control needed to initiate the self-cleaning mode.>
+Step 5:#### No <Entertainment system not required.>
+Step 6:#### No <User personal data not required.>
+Step 7:#### No <External network access not required.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[0 1 0 1 0 0 0 0]//
+
+#### navigate to the nearest gas station using waze app. ####
+Step 1:#### Yes <External perception needed to navigate safely.>
+Step 2:#### No <In-cabin monitoring not required.>
+Step 3:#### Yes <Localization needed to navigate to the gas station.>
+Step 4:#### Yes <Vehicle control needed to drive the vehicle.>
+Step 5:#### No <Entertainment system not required.>
+Step 6:#### No <User personal data not required.>
+Step 7:#### Yes <External network access needed to use the Waze app.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+#### identify and alert me about any objects approaching the vehicle. ####
+Step 1:#### Yes <External perception required to detect approaching objects.>
+Step 2:#### Yes <In-cabin monitoring needed to alert the user.>
+Step 3:#### No <Localization not required.>
+Step 4:#### No <Vehicle control not required.>
+Step 5:#### No <Entertainment system not required.>
+Step 6:#### No <User personal data not required.>
+Step 7:#### No <External network access not required.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[1 1 0 0 0 0 0 0]//
+
+#### navigate to the nearest shopping mall avoiding any toll roads. ####
+Step 1:#### Yes <External perception needed to navigate safely.>
+Step 2:#### No <In-cabin monitoring not required.>
+Step 3:#### Yes <Localization needed to navigate to the shopping mall.>
+Step 4:#### Yes <Vehicle control needed to drive the vehicle.>
+Step 5:#### No <Entertainment system not required.>
+Step 6:#### No <User personal data not required.>
+Step 7:#### No <External network access not required.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[1 0 1 1 0 0 0 0]//
+
+#### lock the doors and close the windows. ####
+Step 1:#### No <No external perception required.>
+Step 2:#### Yes <In-cabin monitoring needed to ensure no occupants are harmed.>
+Step 3:#### No <Localization not required.>
+Step 4:#### Yes <Vehicle control needed to lock the doors and close the windows.>
+Step 5:#### No <Entertainment system not required.>
+Step 6:#### No <User personal data not required.>
+Step 7:#### No <External network access not required.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[0 1 0 1 0 0 0 0]//
+
+#### detect any potential danger inside the cabin. ####
+Step 1:#### No <No external perception required.>
+Step 2:#### Yes <In-cabin monitoring required to detect potential dangers.>
+Step 3:#### No <Localization not required.>
+Step 4:#### No <Vehicle control not required.>
+Step 5:#### No <Entertainment system not required.>
+Step 6:#### No <User personal data not required.>
+Step 7:#### No <External network access not required.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### take me to the nearest gas station. ####
+Step 1:#### Yes <External perception needed to navigate safely.>
+Step 2:#### No <In-cabin monitoring not required.>
+Step 3:#### Yes <Localization needed to navigate to the gas station.>
+Step 4:#### Yes <Vehicle control needed to drive the vehicle.>
+Step 5:#### No <Entertainment system not required.>
+Step 6:#### No <User personal data not required.>
+Step 7:#### No <External network access not required.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[1 0 1 1 0 0 0 0]//
+
+#### make a video call to james using the in-car system. ####
+Step 1:#### No <No external perception required.>
+Step 2:#### Yes <In-cabin monitoring needed to initiate the video call.>
+Step 3:#### No <Localization not required.>
+Step 4:#### No <Vehicle control not required.>
+Step 5:#### Yes <Entertainment system required for video call.>
+Step 6:#### Yes <User personal data required for contact details.>
+Step 7:#### Yes <External network access needed for video call.>
+Step 8:#### No <No traffic laws involved.>
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//

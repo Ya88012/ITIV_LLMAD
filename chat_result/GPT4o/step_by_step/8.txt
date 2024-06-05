@@ -1,0 +1,119 @@
+#### take a photo of the landscape as we drive by the lake. ####
+Step 1:#### 'Yes' The external perception system is required to detect the landscape and take the photo.
+Step 2:#### 'No' In-cabin monitoring is not required for this task.
+Step 3:#### 'No' Localization is not strictly required for taking a photo.
+Step 4:#### 'Yes' Vehicle control is required to drive by the lake.
+Step 5:#### 'No' The entertainment system is not required for this task.
+Step 6:#### 'No' User personal data is not needed to take a photo of the landscape.
+Step 7:#### 'No' External network access is not necessary for this task.
+Step 8:#### 'No' There is no apparent possibility of violating traffic laws with this command.
+
+Response to user:#### Output is //[1 0 0 1 0 0 0 0]//
+
+#### alert me if any of the passengers fall asleep. ####
+Step 1:#### 'No' The external perception system is not required for this task.
+Step 2:#### 'Yes' In-cabin monitoring is required to detect if passengers fall asleep.
+Step 3:#### 'No' Localization is not necessary for this task.
+Step 4:#### 'No' Vehicle control is not required for this task.
+Step 5:#### 'No' The entertainment system is not required for this task.
+Step 6:#### 'No' User personal data is not required for this task.
+Step 7:#### 'No' External network access is not necessary for this task.
+Step 8:#### 'No' There is no apparent possibility of violating traffic laws with this command.
+
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### warn me if any passenger isn't wearing their seatbelt. ####
+Step 1:#### 'No' The external perception system is not required for this task.
+Step 2:#### 'Yes' In-cabin monitoring is required to detect if passengers are not wearing their seatbelts.
+Step 3:#### 'No' Localization is not necessary for this task.
+Step 4:#### 'No' Vehicle control is not required for this task.
+Step 5:#### 'No' The entertainment system is not required for this task.
+Step 6:#### 'No' User personal data is not required for this task.
+Step 7:#### 'No' External network access is not necessary for this task.
+Step 8:#### 'No' There is no apparent possibility of violating traffic laws with this command.
+
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### alert me when someone enters the vehicle while i'm not there. ####
+Step 1:#### 'No' The external perception system is not required for this task.
+Step 2:#### 'Yes' In-cabin monitoring is required to detect someone entering the vehicle.
+Step 3:#### 'No' Localization is not necessary for this task.
+Step 4:#### 'No' Vehicle control is not required for this task.
+Step 5:#### 'No' The entertainment system is not required for this task.
+Step 6:#### 'No' User personal data is not required for this task.
+Step 7:#### 'No' External network access is not necessary for this task.
+Step 8:#### 'No' There is no apparent possibility of violating traffic laws with this command.
+
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### speed up to match the traffic flow. ####
+Step 1:#### 'Yes' The external perception system is required to detect the traffic flow.
+Step 2:#### 'No' In-cabin monitoring is not required for this task.
+Step 3:#### 'No' Localization is not necessary for this task.
+Step 4:#### 'Yes' Vehicle control is required to adjust the speed of the vehicle.
+Step 5:#### 'No' The entertainment system is not required for this task.
+Step 6:#### 'No' User personal data is not required for this task.
+Step 7:#### 'No' External network access is not necessary for this task.
+Step 8:#### 'Yes' There is a possibility of violating traffic laws by speeding.
+
+Response to user:#### Output is //[1 0 0 1 0 0 0 1]//
+
+#### notify me when the car's battery is low. ####
+Step 1:#### 'No' The external perception system is not required for this task.
+Step 2:#### 'Yes' In-cabin monitoring is required to notify the driver.
+Step 3:#### 'No' Localization is not necessary for this task.
+Step 4:#### 'No' Vehicle control is not required for this task.
+Step 5:#### 'No' The entertainment system is not required for this task.
+Step 6:#### 'No' User personal data is not required for this task.
+Step 7:#### 'No' External network access is not necessary for this task.
+Step 8:#### 'No' There is no apparent possibility of violating traffic laws with this command.
+
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### notify me when we are 5 minutes away from the destination. ####
+Step 1:#### 'No' The external perception system is not required for this task.
+Step 2:#### 'No' In-cabin monitoring is not required for this task.
+Step 3:#### 'Yes' Localization is required to determine the distance to the destination.
+Step 4:#### 'No' Vehicle control is not required for this task.
+Step 5:#### 'No' The entertainment system is not required for this task.
+Step 6:#### 'No' User personal data is not required for this task.
+Step 7:#### 'No' External network access is not necessary for this task.
+Step 8:#### 'No' There is no apparent possibility of violating traffic laws with this command.
+
+Response to user:#### Output is //[0 0 1 0 0 0 0 0]//
+
+#### take the scenic route to our destination. ####
+Step 1:#### 'Yes' The external perception system is required to navigate and take the scenic route.
+Step 2:#### 'No' In-cabin monitoring is not required for this task.
+Step 3:#### 'Yes' Localization is required to navigate the scenic route.
+Step 4:#### 'Yes' Vehicle control is required to follow the route.
+Step 5:#### 'No' The entertainment system is not required for this task.
+Step 6:#### 'No' User personal data is not required for this task.
+Step 7:#### 'Yes' External network access is necessary to find the scenic route.
+Step 8:#### 'No' There is no apparent possibility of violating traffic laws with this command.
+
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+#### show me the last trip's travel history. ####
+Step 1:#### 'No' The external perception system is not required for this task.
+Step 2:#### 'No' In-cabin monitoring is not required for this task.
+Step 3:#### 'No' Localization is not necessary for this task.
+Step 4:#### 'No' Vehicle control is not required for this task.
+Step 5:#### 'No' The entertainment system is not required for this task.
+Step 6:#### 'Yes' User personal data is required to access travel history.
+Step 7:#### 'No' External network access is not necessary for this task.
+Step 8:#### 'No' There is no apparent possibility of violating traffic laws with this command.
+
+Response to user:#### Output is //[0 0 0 0 0 1 0 0]//
+
+#### call john using hands-free. ####
+Step 1:#### 'No' The external perception system is not required for this task.
+Step 2:#### 'Yes' In-cabin monitoring is required to use the hands-free calling feature.
+Step 3:#### 'No' Localization is not necessary for this task.
+Step 4:#### 'No' Vehicle control is not required for this task.
+Step 5:#### 'Yes' The entertainment system is required for hands-free calling.
+Step 6:#### 'Yes' User personal data is required to call John.
+Step 7:#### 'Yes' External network access is necessary to make the call.
+Step 8:#### 'No' There is no apparent possibility of violating traffic laws with this command.
+
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//

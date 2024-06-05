@@ -1,0 +1,211 @@
+#### show the next week's calendar events. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve any movement, sense or detect the surrounding.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't require monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+No, it doesn't involve navigation or determining the vehicle's position.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve physically controlling the vehicle movements.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+Yes, it involves accessing personal calendar data.
+Network access: Is external network access required?
+Yes, it may require cloud service to fetch calendar data.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any driving action that could violate traffic laws.
+Therefore, the output should be
+"Output is //[0 0 0 0 0 1 1 0]//"
+
+#### start self-driving mode. ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it involves sensing and detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+Yes, it needs to determine the vehicle's position and navigation.
+Vehicle control: Is vehicle control required?
+Yes, it involves controlling the vehicle's movements.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+No, it doesn't involve personal data.
+Network access: Is external network access required?
+No, it doesn't necessarily require external network access.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it should follow traffic laws as a standard procedure.
+Therefore, the output should be
+"Output is //[1 0 1 1 0 0 0 0]//"
+
+#### increase the car speed to overtake the vehicle in front. ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it involves sensing and detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+Yes, it needs to determine the vehicle's position and surrounding vehicles.
+Vehicle control: Is vehicle control required?
+Yes, it involves controlling the vehicle's speed and movements.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+No, it doesn't involve personal data.
+Network access: Is external network access required?
+No, it doesn't necessarily require external network access.
+Traffic laws: Is there a possibility of violating traffic laws?
+Yes, it involves a driving action that could potentially violate traffic laws if not executed properly.
+Therefore, the output should be
+"Output is //[1 0 1 1 0 0 0 1]//"
+
+#### drive to the nearest sushi restaurant ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it involves sensing and detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+Yes, it needs to determine the vehicle's position and navigate to the destination.
+Vehicle control: Is vehicle control required?
+Yes, it involves controlling the vehicle's movements.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+No, it doesn't involve personal data.
+Network access: Is external network access required?
+Yes, it requires searching for the nearest sushi restaurant.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it involves normal driving which should adhere to traffic laws.
+Therefore, the output should be
+"Output is //[1 0 1 1 0 0 1 0]//"
+
+#### stop if you detect an obstacle on the road. ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it involves sensing and detecting obstacles.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+No, it doesn't necessarily involve determining the vehicle's position for stopping.
+Vehicle control: Is vehicle control required?
+Yes, it involves controlling the vehicle's movements to stop.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+No, it doesn't involve personal data.
+Network access: Is external network access required?
+No, it doesn't necessarily require external network access.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it involves a safety measure which adheres to traffic laws.
+Therefore, the output should be
+"Output is //[1 0 0 1 0 0 0 0]//"
+
+#### avoid toll roads on the way to our destination. ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it involves sensing and detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+Yes, it needs to determine the vehicle's position and navigate accordingly.
+Vehicle control: Is vehicle control required?
+Yes, it involves controlling the vehicle's movements.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+No, it doesn't involve personal data.
+Network access: Is external network access required?
+Yes, it requires finding routes that avoid toll roads.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it involves normal driving which should adhere to traffic laws.
+Therefore, the output should be
+"Output is //[1 0 1 1 0 0 1 0]//"
+
+#### show me the live traffic situation on my route to work. ####
+explanation:
+external Perception system: Is the external perception system required? 
+No, it doesn't involve sensing and detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+Yes, it involves determining the vehicle's position and route to work.
+Vehicle control: Is vehicle control required?
+No, it doesn't involve controlling the vehicle's movements.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+Yes, it may involve personal travel history.
+Network access: Is external network access required?
+Yes, it requires accessing live traffic data from external sources.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it doesn't involve any driving action that could violate traffic laws.
+Therefore, the output should be
+"Output is //[0 0 1 0 0 1 1 0]//"
+
+#### follow the car ahead of us. ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it involves sensing and detecting the car ahead.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+Yes, it needs to determine the vehicle's position and the car ahead.
+Vehicle control: Is vehicle control required?
+Yes, it involves controlling the vehicle's movements to follow.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+No, it doesn't involve personal data.
+Network access: Is external network access required?
+No, it doesn't necessarily require external network access.
+Traffic laws: Is there a possibility of violating traffic laws?
+Yes, it could involve risky driving actions.
+Therefore, the output should be
+"Output is //[1 0 1 1 0 0 0 1]//"
+
+#### direct me to john's last known location. ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it involves sensing and detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+Yes, it needs to determine the vehicle's position and navigate to John's location.
+Vehicle control: Is vehicle control required?
+Yes, it involves controlling the vehicle's movements.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+Yes, it involves accessing John's location data.
+Network access: Is external network access required?
+Yes, it requires finding and accessing John's location data.
+Traffic laws: Is there a possibility of violating traffic laws?
+No, it involves normal driving which should adhere to traffic laws.
+Therefore, the output should be
+"Output is //[1 0 1 1 0 1 1 0]//"
+
+#### drive me to the nearest italian restaurant. ####
+explanation:
+external Perception system: Is the external perception system required? 
+Yes, it involves sensing and detecting the surroundings.
+In-cabin monitoring: Is in-cabin monitoring required?
+No, it doesn't involve monitoring inside the vehicle’s cabin.
+Localization: Is localization required?
+Yes, it needs to determine the vehicle's position and navigate to the restaurant.
+Vehicle control: Is vehicle control required?
+Yes, it involves controlling the vehicle's movements.
+Entertainment: Is the entertainment system required?
+No, it doesn't involve multimedia entertainment.
+Personal data: Is user personal data required?
+No, it doesn't involve personal data.
+Network access: Is external network access required?
+Yes, it requires finding the nearest Italian restaurant.
+Traffic laws: Is there a possibility of violating traffic laws?
+No,
+
+ it involves normal driving which should adhere to traffic laws.
+Therefore, the output should be
+"Output is //[1 0 1 1 0 0 1 0]//"

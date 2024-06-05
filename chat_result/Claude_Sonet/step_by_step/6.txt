@@ -1,0 +1,111 @@
+Here are my responses to your command messages for the self-driving vehicle:
+
+#### show the next week's calendar events. ####
+Step 1:#### No <This does not require the external perception system to detect the vehicle surroundings>
+Step 2:#### No <This does not require monitoring inside the vehicle cabin>  
+Step 3:#### No <This does not require knowing the vehicle's precise location>
+Step 4:#### No <This does not require controlling the vehicle's movements>
+Step 5:#### Yes <This involves accessing the entertainment/multimedia system to show calendar events>
+Step 6:#### Yes <This likely involves accessing the user's personal calendar data>
+Step 7:#### Yes <This may require accessing online calendar services over a network>
+Step 8:#### No <This does not risk violating any traffic laws>
+Output is //[0 0 0 0 1 1 1 0]//
+
+#### start self-driving mode. ####
+Step 1:#### Yes <Autonomous driving requires perceiving the external environment>
+Step 2:#### No <This does not require monitoring inside the cabin>
+Step 3:#### Yes <Self-driving requires knowing the vehicle's location>  
+Step 4:#### Yes <Self-driving requires controlling the vehicle movements>
+Step 5:#### No <This does not involve the entertainment system>
+Step 6:#### No <This does not require accessing the user's personal data>
+Step 7:#### No <This does not require external network access>
+Step 8:#### No <Autonomous driving should obey all traffic laws>
+Output is //[1 0 1 1 0 0 0 0]//
+
+#### increase the car speed to overtake the vehicle in front. ####
+Step 1:#### Yes <This requires perceiving vehicles around the car>
+Step 2:#### No <This does not require in-cabin monitoring>
+Step 3:#### Yes <This requires localization to control speed and overtaking>
+Step 4:#### Yes <This requires controlling acceleration and steering>
+Step 5:#### No <This does not involve the entertainment system>  
+Step 6:#### No <This does not require the user's personal data>
+Step 7:#### No <This does not require external network access>
+Step 8:#### Yes <Unsafe overtaking could violate traffic laws>
+Output is //[1 0 1 1 0 0 0 1]//
+
+#### drive to the nearest sushi restaurant ####
+Step 1:#### Yes <Driving requires perceiving the surroundings>
+Step 2:#### No <This does not require in-cabin monitoring>
+Step 3:#### Yes <Finding a nearby destination requires localization>
+Step 4:#### Yes <Driving to a destination requires vehicle control> 
+Step 5:#### No <This does not involve the entertainment system>
+Step 6:#### No <This does not require the user's personal data>
+Step 7:#### Yes <Finding a nearby restaurant may require network access>
+Step 8:#### No <Driving to a restaurant should not violate traffic laws>
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### stop if you detect an obstacle on the road. ####
+Step 1:#### Yes <Detecting obstacles requires external perception>
+Step 2:#### No <This does not require in-cabin monitoring>
+Step 3:#### No <This does not require localization of the vehicle itself>
+Step 4:#### Yes <Stopping the vehicle requires vehicle control systems>
+Step 5:#### No <This does not involve the entertainment system>
+Step 6:#### No <This does not require the user's personal data>  
+Step 7:#### No <This does not require external network access>
+Step 8:#### No <Stopping for obstacles follows traffic laws>
+Output is //[1 0 0 1 0 0 0 0]//
+
+#### avoid toll roads on the way to our destination. ####
+Step 1:#### Yes <Perceiving road signs/conditions is required>  
+Step 2:#### No <This does not require in-cabin monitoring>
+Step 3:#### Yes <Localization is needed to plan routes avoiding tolls>
+Step 4:#### Yes <Controlling the vehicle's route requires its controls>
+Step 5:#### No <This does not involve the entertainment system>
+Step 6:#### No <This does not require the user's personal data>
+Step 7:#### Yes <Finding routes may require network access>
+Step 8:#### No <Avoiding tolls does not violate traffic laws>
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### show me the live traffic situation on my route to work. ####
+Step 1:#### Yes <Perceiving traffic requires external perception>
+Step 2:#### No <This does not require in-cabin monitoring> 
+Step 3:#### Yes <Knowing the planned route requires localization>
+Step 4:#### No <This does not require directly controlling the vehicle>
+Step 5:#### Yes <Displaying traffic likely uses the multimedia system>
+Step 6:#### Yes <Knowing the user's work route is personal data>
+Step 7:#### Yes <Getting live traffic requires network access>
+Step 8:#### No <This does not risk violating any traffic laws>
+Output is //[1 0 1 0 1 1 1 0]//
+
+#### follow the car ahead of us. ####
+Step 1:#### Yes <Following a car requires perceiving surroundings> 
+Step 2:#### No <This does not require in-cabin monitoring>
+Step 3:#### No <This does not require precise localization>  
+Step 4:#### Yes <Controlling vehicle to follow requires its controls>
+Step 5:#### No <This does not involve the entertainment system>
+Step 6:#### No <This does not require the user's personal data>
+Step 7:#### No <This does not require external network access>
+Step 8:#### No <Following another car does not violate laws>
+Output is //[1 0 0 1 0 0 0 0]//
+
+#### direct me to john's last known location. #### 
+Step 1:#### Yes <Driving requires perceiving the surroundings>
+Step 2:#### No <This does not require in-cabin monitoring>
+Step 3:#### Yes <Finding a location requires localization>
+Step 4:#### Yes <Driving to a location requires vehicle controls>
+Step 5:#### No <This does not involve the entertainment system>
+Step 6:#### Yes <This involves accessing personal data about "John">
+Step 7:#### Yes <Finding locations may require network access>
+Step 8:#### No <This does not risk violating any traffic laws>  
+Output is //[1 0 1 1 0 1 1 0]//
+
+#### drive me to the nearest italian restaurant. ####
+Step 1:#### Yes <Driving requires perceiving the surroundings>
+Step 2:#### No <This does not require in-cabin monitoring>
+Step 3:#### Yes <Finding a nearby place requires localization>
+Step 4:#### Yes <Driving to a destination needs vehicle controls>
+Step 5:#### No <This does not involve the entertainment system>
+Step 6:#### No <This does not explicitly require personal data>
+Step 7:#### Yes <Finding nearby places may need network access>
+Step 8:#### No <Driving to a restaurant should not violate laws>  
+Output is //[1 0 1 1 0 0 1 0]//

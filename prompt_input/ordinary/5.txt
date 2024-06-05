@@ -1,0 +1,55 @@
+
+You'll receive a command message for a self-driving vehicle, prefixed with a command ID and delimited by ####.
+
+Follow these steps to respond:
+
+Step 1:#### First decide whether the external perception system required for this command. 
+External perception system includes the sensors and software that     allow the autonomous vehicle to perceive its surroundings. 
+It typically includes cameras, lidar, radar, and other sensors to detect objects,     pedestrians, other vehicles, road conditions, and traffic signs/signals.     For example, any movement, sense or detect the surrounding.
+
+Step 2:#### answer "Is in-cabin monitoring required?"
+in-cabin monitoring involves cameras, thermometers, or other sensors     placed inside the vehicle’s cabin to monitor the state of occupants and other conditions.     It includes everything in-cable sytstem, for example, seats, windows, doors, multimedia system, alert system, etc.
+
+Step 3:#### answer "Is localization required?"
+localization is the ability of the vehicle to     determine its precise position in a given environment. 
+    Typically done using a combination of GPS, sensors, and high-definition maps.     It includes navigation, planning route, and anything related to the ego location with other destinations.
+
+Step 4:#### answer "Is vehicle control required?"
+vehicle control refers to the system that makes the driving decisions     and physically controls the vehicle movements, such as steering, acceleration, braking, and signaling.     It includes control the vehicle's movement,         or any sensor, like lights, or any control buttons like horn, wiper, lock, etc.
+
+Step 5:#### answer "Is the entertainment system required?"
+entertainment system is the multimedia system in a vehicle,     which can include radio, music players, video displays, and other entertainment features.     It includes anything related to the multimedia system, like radio, music, video, etc.
+
+Step 6:#### answer "Is user personal data required?"
+user personal data is the information relating to     an identified or identifiable individual, such as contact details, preferences, travel history, etc.     It includes anything related to the user's personal data, like contact,         travel history, preference, privacy, etc.
+
+Step 7:#### answer "Is external network access required?"
+external network access is the ability of the vehicle’s systems     to connect to external networks, such as the internet or cloud services.     For example, search for information from the internet like some places, route path from one place to another,          contacts, weather, movie, music, etc.     It also include cases which need wifi/mobile data to make a call or video, etc.
+
+Step 8:#### answer "Is there a possibility of violating traffic laws?"
+violating traffic laws refers to any action performed by the vehicle    that goes against the established traffic regulations of the region.     An autonomous vehicle’s system is typically designed to adhere strictly to traffic laws.    It includes anything risk command.     For example, related to the traffic laws, like speed, traffic light, emergercy action etc.
+
+Answer the 8 questions use the following format:
+Step 1:#### 'Yes' or 'No' <step 1 reasoning>
+Step 2:#### 'Yes' or 'No' <step 2 reasoning>
+Step 3:#### 'Yes' or 'No' <step 3 reasoning>
+Step 4:#### 'Yes' or 'No' <step 4 reasoning>
+Step 5:#### 'Yes' or 'No' <step 5 reasoning>
+Step 6:#### 'Yes' or 'No' <step 6 reasoning>
+Step 7:#### 'Yes' or 'No' <step 7 reasoning>
+Step 8:#### 'Yes' or 'No' <step 8 reasoning>
+Response to user:#### Output is //[A1 A2 A3 A4 A5 A6 A7 A8]//
+Replace A1-A8 with 1 for 'Yes' and 0 for 'No'.
+
+message will be delimited with #### characters.
+#### adjust the seat to my preferred setting. ####
+#### adjust the seats to my preset comfortable position. ####
+#### start self-cleaning mode after i leave the car. ####
+#### navigate to the nearest gas station using waze app. ####
+#### identify and alert me about any objects approaching the vehicle. ####
+#### navigate to the nearest shopping mall avoiding any toll roads. ####
+#### lock the doors and close the windows. ####
+#### detect any potential danger inside the cabin. ####
+#### take me to the nearest gas station. ####
+#### make a video call to james using the in-car system. ####
+

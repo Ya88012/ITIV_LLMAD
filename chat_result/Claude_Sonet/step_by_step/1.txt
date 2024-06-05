@@ -1,0 +1,111 @@
+I will respond to each command message following the specified steps.
+
+####check if my cargo in the trunk is secure.####
+Step 1:#### No <This command does not require the external perception system to detect surroundings>
+Step 2:#### Yes <This requires monitoring inside the vehicle cabin, specifically the trunk area>
+Step 3:#### No <Vehicle localization is not needed for this task>
+Step 4:#### No <No vehicle control or movements are required>
+Step 5:#### No <The entertainment system is not involved>
+Step 6:#### No <No user personal data is required>
+Step 7:#### No <External network access is not needed>
+Step 8:#### No <There is no potential violation of traffic laws>
+Output is //[0 1 0 0 0 0 0 0]//
+
+####find the fastest route to the nearest supermarket.####
+Step 1:#### Yes <Driving and perceiving surroundings is needed>
+Step 2:#### No <In-cabin monitoring is not required>
+Step 3:#### Yes <Localization and navigation to the destination is necessary>
+Step 4:#### Yes <Vehicle control for driving is required>
+Step 5:#### No <Entertainment system is not involved>
+Step 6:#### No <No personal user data is needed>
+Step 7:#### Yes <External network/map access may be required to find the route>
+Step 8:#### No <There is no traffic violation expected for normal driving>
+Output is //[1 0 1 1 0 0 1 0]//
+
+####check if the kid at the back seat is sleeping.####
+Step 1:#### No <External perception is not required>
+Step 2:#### Yes <In-cabin monitoring of the back seat is needed>
+Step 3:#### No <Vehicle localization is not involved>
+Step 4:#### No <No vehicle control or movements required>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### No <No personal user data required>
+Step 7:#### No <External network access not required>
+Step 8:#### No <No potential traffic violation>
+Output is //[0 1 0 0 0 0 0 0]//
+
+####find the nearest parking area.####
+Step 1:#### Yes <Driving and perceiving surroundings is required>
+Step 2:#### No <In-cabin monitoring not required>
+Step 3:#### Yes <Vehicle localization and navigation needed>
+Step 4:#### Yes <Vehicle control for driving is required>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### No <No personal user data required>
+Step 7:#### Yes <External network access likely needed to find parking>
+Step 8:#### No <No traffic violation expected>
+Output is //[1 0 1 1 0 0 1 0]//
+
+####send my current location to my husband.####
+Step 1:#### No <External perception not required>
+Step 2:#### No <In-cabin monitoring not required>
+Step 3:#### Yes <Vehicle localization is needed to get current location>
+Step 4:#### No <No vehicle control or movements required>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### Yes <Sending location to spouse involves personal data>
+Step 7:#### Yes <External network access required to send the data>
+Step 8:#### No <No potential traffic violation>
+Output is //[0 0 1 0 0 1 1 0]//
+
+####overtake the slow vehicle in front.####
+Step 1:#### Yes <Requires perceiving surroundings and other vehicles>
+Step 2:#### No <In-cabin monitoring not required>
+Step 3:#### Yes <Localization needed for safe overtaking maneuver>
+Step 4:#### Yes <Vehicle control for overtaking required>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### No <No personal user data required>
+Step 7:#### No <External network access not required>
+Step 8:#### Yes <Overtaking could potentially violate traffic laws if done unsafely>
+Output is //[1 0 1 1 0 0 0 1]//
+
+####start driving as soon as i sit in the back seat.#### 
+Step 1:#### Yes <Driving requires perceiving surroundings>
+Step 2:#### No <In-cabin monitoring of occupants not required>
+Step 3:#### Yes <Localization and navigation required for driving>
+Step 4:#### Yes <Vehicle control required to start driving>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### No <No specific personal user data required>
+Step 7:#### No <External network access not required>
+Step 8:#### Yes <Starting to drive immediately from back seat could violate laws>
+Output is //[1 0 1 1 0 0 0 1]//
+
+####start a video call with my mom on the vehicle's display.####
+Step 1:#### No <External perception not required>
+Step 2:#### No <In-cabin monitoring not required>
+Step 3:#### No <Vehicle localization not involved>
+Step 4:#### No <No vehicle control or movements required>
+Step 5:#### Yes <Using the vehicle's multimedia/display system>
+Step 6:#### Yes <Involves personal data of contacts>
+Step 7:#### Yes <External network access required for video call>
+Step 8:#### No <No potential traffic violation>
+Output is //[0 0 0 0 1 1 1 0]//
+
+####alert me if a child seat is not correctly fastened.####
+Step 1:#### No <External perception of surroundings not required>
+Step 2:#### Yes <Requires monitoring inside the vehicle cabin>
+Step 3:#### No <Vehicle localization not involved>
+Step 4:#### No <No vehicle control or movements needed>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### No <No specific personal user data required>
+Step 7:#### No <External network access not required>
+Step 8:#### No <No potential traffic violation>
+Output is //[0 1 0 0 0 0 0 0]//
+
+####find the fastest route to my home and avoid tolls.####
+Step 1:#### Yes <Driving and perceiving surroundings required>
+Step 2:#### No <In-cabin monitoring not required>
+Step 3:#### Yes <Localization and navigation to destination needed>
+Step 4:#### Yes <Vehicle control for driving required>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### Yes <Involves personal data of home location>
+Step 7:#### Yes <External network/maps access likely needed for routing>
+Step 8:#### No <No potential traffic violation expected>
+Output is //[1 0 1 1 0 1 1 0]//

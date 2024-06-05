@@ -1,0 +1,39 @@
+#### take a photo of the landscape as we drive by the lake. ####
+
+Output is //[1 0 1 0 0 0 0 0]//
+
+#### alert me if any of the passengers fall asleep. ####
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### warn me if any passenger isn't wearing their seatbelt. ####
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### alert me when someone enters the vehicle while I'm not there. ####
+
+Output is //[0 1 0 0 0 0 0 0]//
+
+#### speed up to match the traffic flow. ####
+
+Output is //[1 0 1 1 0 0 0 1]//
+
+#### notify me when the car's battery is low. ####
+
+Output is //[0 0 0 0 0 0 0 0]//
+
+#### notify me when we are 5 minutes away from the destination. ####
+
+Output is //[0 0 1 0 0 0 0 0]//
+
+#### take the scenic route to our destination. ####
+
+Output is //[1 0 1 1 0 0 0 0]//
+
+#### show me the last trip's travel history. ####
+
+Output is //[0 0 0 0 0 1 0 0]//
+
+#### call John using hands-free. ####
+
+Output is //[0 1 0 0 1 1 1 0]//

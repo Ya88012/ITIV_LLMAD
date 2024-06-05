@@ -1,0 +1,119 @@
+#### check if my cargo in the trunk is secure. ####
+Step 1:#### Yes. External perception is required to detect the cargo and its condition.
+Step 2:#### No. In-cabin monitoring is not needed for checking the trunk.
+Step 3:#### No. Localization is not required to check the trunk.
+Step 4:#### No. Vehicle control is not required.
+Step 5:#### No. Entertainment system is not required.
+Step 6:#### No. User personal data is not required.
+Step 7:#### No. External network access is not required.
+Step 8:#### No. There is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[1 0 0 0 0 0 0 0]//
+
+#### find the fastest route to the nearest supermarket. ####
+Step 1:#### No. External perception is not required to find a route.
+Step 2:#### No. In-cabin monitoring is not needed.
+Step 3:#### Yes. Localization is required to determine the vehicle's current position and navigate.
+Step 4:#### No. Vehicle control is not required to find a route.
+Step 5:#### No. Entertainment system is not required.
+Step 6:#### No. User personal data is not required.
+Step 7:#### Yes. External network access is needed to get real-time traffic data and map updates.
+Step 8:#### No. There is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 0 1 0 0 0 1 0]//
+
+#### check if the kid at the back seat is sleeping. ####
+Step 1:#### No. External perception is not required to check inside the cabin.
+Step 2:#### Yes. In-cabin monitoring is required to monitor the state of the occupant.
+Step 3:#### No. Localization is not required.
+Step 4:#### No. Vehicle control is not required.
+Step 5:#### No. Entertainment system is not required.
+Step 6:#### No. User personal data is not required.
+Step 7:#### No. External network access is not required.
+Step 8:#### No. There is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 0 0 0 0]//
+
+#### find the nearest parking area. ####
+Step 1:#### No. External perception is not required to find a parking area.
+Step 2:#### No. In-cabin monitoring is not required.
+Step 3:#### Yes. Localization is required to determine the vehicle's position and find nearby locations.
+Step 4:#### No. Vehicle control is not required to find a parking area.
+Step 5:#### No. Entertainment system is not required.
+Step 6:#### No. User personal data is not required.
+Step 7:#### Yes. External network access is needed to get real-time data on parking availability.
+Step 8:#### No. There is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 0 1 0 0 0 1 0]//
+
+#### send my current location to my husband. ####
+Step 1:#### No. External perception is not required to send location data.
+Step 2:#### No. In-cabin monitoring is not required.
+Step 3:#### Yes. Localization is required to determine the vehicle's current position.
+Step 4:#### No. Vehicle control is not required.
+Step 5:#### No. Entertainment system is not required.
+Step 6:#### Yes. User personal data is required to send personal information to the husband.
+Step 7:#### Yes. External network access is needed to communicate the location.
+Step 8:#### No. There is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 0 1 0 0 1 1 0]//
+
+#### overtake the slow vehicle in front. ####
+Step 1:#### Yes. External perception is required to detect other vehicles and road conditions.
+Step 2:#### No. In-cabin monitoring is not required.
+Step 3:#### Yes. Localization is required to understand the vehicle's position relative to others.
+Step 4:#### Yes. Vehicle control is required to execute the overtaking maneuver.
+Step 5:#### No. Entertainment system is not required.
+Step 6:#### No. User personal data is not required.
+Step 7:#### No. External network access is not required.
+Step 8:#### Yes. There is a possibility of violating traffic laws if not done correctly.
+
+Response to user:#### Output is //[1 0 1 1 0 0 0 1]//
+
+#### start driving as soon as I sit in the back seat. ####
+Step 1:#### Yes. External perception is required to ensure it is safe to start driving.
+Step 2:#### Yes. In-cabin monitoring is required to detect the presence of the user.
+Step 3:#### Yes. Localization is required to navigate the vehicle.
+Step 4:#### Yes. Vehicle control is required to start driving.
+Step 5:#### No. Entertainment system is not required.
+Step 6:#### No. User personal data is not required.
+Step 7:#### No. External network access is not required.
+Step 8:#### No. There is no possibility of violating traffic laws if the vehicle follows all regulations.
+
+Response to user:#### Output is //[1 1 1 1 0 0 0 0]//
+
+#### start a video call with my mom on the vehicle's display. ####
+Step 1:#### No. External perception is not required to start a video call.
+Step 2:#### Yes. In-cabin monitoring might be required to ensure the user is in the vehicle.
+Step 3:#### No. Localization is not required.
+Step 4:#### No. Vehicle control is not required.
+Step 5:#### Yes. Entertainment system is required to facilitate the video call.
+Step 6:#### Yes. User personal data is required to initiate the call.
+Step 7:#### Yes. External network access is required to make the call.
+Step 8:#### No. There is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//
+
+#### alert me if a child seat is not correctly fastened. ####
+Step 1:#### Yes. External perception is required to detect the status of the child seat.
+Step 2:#### Yes. In-cabin monitoring is required to monitor the child seat.
+Step 3:#### No. Localization is not required.
+Step 4:#### No. Vehicle control is not required.
+Step 5:#### No. Entertainment system is not required.
+Step 6:#### No. User personal data is not required.
+Step 7:#### No. External network access is not required.
+Step 8:#### No. There is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[1 1 0 0 0 0 0 0]//
+
+#### find the fastest route to my home and avoid tolls. ####
+Step 1:#### No. External perception is not required to find a route.
+Step 2:#### No. In-cabin monitoring is not required.
+Step 3:#### Yes. Localization is required to determine the vehicle's position and navigate.
+Step 4:#### No. Vehicle control is not required to find a route.
+Step 5:#### No. Entertainment system is not required.
+Step 6:#### No. User personal data is not required.
+Step 7:#### Yes. External network access is needed to get real-time traffic data and map updates.
+Step 8:#### No. There is no possibility of violating traffic laws.
+
+Response to user:#### Output is //[0 0 1 0 0 0 1 0]//

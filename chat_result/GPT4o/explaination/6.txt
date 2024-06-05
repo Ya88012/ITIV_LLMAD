@@ -1,0 +1,29 @@
+#### show the next week's calendar events. ####
+Output is //[0 1 0 0 1 1 1 0]//
+
+#### start self-driving mode. ####
+Output is //[1 1 1 1 0 0 0 0]//
+
+#### increase the car speed to overtake the vehicle in front. ####
+Output is //[1 0 1 1 0 0 0 1]//
+
+#### drive to the nearest sushi restaurant ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### stop if you detect an obstacle on the road. ####
+Output is //[1 0 1 1 0 0 0 0]//
+
+#### avoid toll roads on the way to our destination. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### show me the live traffic situation on my route to work. ####
+Output is //[1 1 1 0 1 0 1 0]//
+
+#### follow the car ahead of us. ####
+Output is //[1 0 1 1 0 0 0 0]//
+
+#### direct me to john's last known location. ####
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### drive me to the nearest italian restaurant. ####
+Output is //[1 0 1 1 0 0 1 0]//

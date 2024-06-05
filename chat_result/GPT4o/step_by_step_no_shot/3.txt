@@ -1,0 +1,111 @@
+#### start highway autopilot mode. ####
+Step 1:#### Yes, the external perception system is required to monitor the vehicle's surroundings and detect objects, pedestrians, other vehicles, road conditions, and traffic signs/signals on the highway.
+Step 2:#### No, in-cabin monitoring is not required for highway autopilot mode.
+Step 3:#### Yes, localization is required to determine the vehicle's precise position and navigate accurately on the highway.
+Step 4:#### Yes, vehicle control is required to steer, accelerate, brake, and signal during highway driving.
+Step 5:#### No, the entertainment system is not required for highway autopilot mode.
+Step 6:#### No, user personal data is not required for highway autopilot mode.
+Step 7:#### No, external network access is not required for highway autopilot mode.
+Step 8:#### No, there is no inherent possibility of violating traffic laws if the system is functioning correctly and adheres to traffic regulations.
+Response to user:#### Output is //[1 0 1 1 0 0 0 0]//
+
+#### watch a movie on netflix. ####
+Step 1:#### No, the external perception system is not required for watching a movie on Netflix.
+Step 2:#### Yes, in-cabin monitoring may be required to ensure the comfort and safety of occupants while using the entertainment system.
+Step 3:#### No, localization is not required for watching a movie on Netflix.
+Step 4:#### No, vehicle control is not required for watching a movie on Netflix.
+Step 5:#### Yes, the entertainment system is required to access and play Netflix movies.
+Step 6:#### Yes, user personal data may be required to log into Netflix and access user preferences.
+Step 7:#### Yes, external network access is required to stream a movie from Netflix.
+Step 8:#### No, there is no possibility of violating traffic laws while watching a movie on Netflix.
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//
+
+#### please drive to my home. ####
+Step 1:#### Yes, the external perception system is required to navigate and detect surroundings while driving to a specific location.
+Step 2:#### No, in-cabin monitoring is not required for driving to a home location.
+Step 3:#### Yes, localization is required to determine the vehicle's position and navigate to the home location.
+Step 4:#### Yes, vehicle control is required to steer, accelerate, brake, and signal during the drive.
+Step 5:#### No, the entertainment system is not required for driving to a home location.
+Step 6:#### Yes, user personal data may be required to determine the home location.
+Step 7:#### Yes, external network access may be required for navigation and real-time traffic updates.
+Step 8:#### No, there is no inherent possibility of violating traffic laws if the system is functioning correctly and adheres to traffic regulations.
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//
+
+#### show a comedy movie on the rear screen. ####
+Step 1:#### No, the external perception system is not required for showing a movie on the rear screen.
+Step 2:#### Yes, in-cabin monitoring may be required to ensure the comfort and safety of occupants while using the entertainment system.
+Step 3:#### No, localization is not required for showing a movie on the rear screen.
+Step 4:#### No, vehicle control is not required for showing a movie on the rear screen.
+Step 5:#### Yes, the entertainment system is required to access and play movies on the rear screen.
+Step 6:#### Yes, user personal data may be required to access user preferences and settings.
+Step 7:#### Yes, external network access may be required to stream a movie.
+Step 8:#### No, there is no possibility of violating traffic laws while showing a movie on the rear screen.
+Response to user:#### Output is //[0 1 0 0 1 1 1 0]//
+
+#### navigate to the nearest chinese restaurant. ####
+Step 1:#### Yes, the external perception system is required to navigate and detect surroundings while driving to a specific location.
+Step 2:#### No, in-cabin monitoring is not required for navigating to a restaurant.
+Step 3:#### Yes, localization is required to determine the vehicle's position and navigate to the nearest Chinese restaurant.
+Step 4:#### Yes, vehicle control is required to steer, accelerate, brake, and signal during the drive.
+Step 5:#### No, the entertainment system is not required for navigating to a restaurant.
+Step 6:#### No, user personal data is not required for navigating to the nearest Chinese restaurant.
+Step 7:#### Yes, external network access is required to find and navigate to the nearest Chinese restaurant.
+Step 8:#### No, there is no inherent possibility of violating traffic laws if the system is functioning correctly and adheres to traffic regulations.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+#### alert me when there's a car too close to us. ####
+Step 1:#### Yes, the external perception system is required to detect other vehicles and alert the driver when a car is too close.
+Step 2:#### No, in-cabin monitoring is not required for alerting the driver about nearby vehicles.
+Step 3:#### No, localization is not required for detecting nearby vehicles and providing alerts.
+Step 4:#### Yes, vehicle control is required to potentially take action based on the proximity of other vehicles.
+Step 5:#### No, the entertainment system is not required for alerting the driver about nearby vehicles.
+Step 6:#### No, user personal data is not required for alerting the driver about nearby vehicles.
+Step 7:#### No, external network access is not required for alerting the driver about nearby vehicles.
+Step 8:#### No, there is no possibility of violating traffic laws by providing proximity alerts.
+Response to user:#### Output is //[1 0 0 1 0 0 0 0]//
+
+#### show me the latest news on the digital display. ####
+Step 1:#### No, the external perception system is not required for showing the latest news on the digital display.
+Step 2:#### No, in-cabin monitoring is not required for showing the latest news on the digital display.
+Step 3:#### No, localization is not required for showing the latest news on the digital display.
+Step 4:#### No, vehicle control is not required for showing the latest news on the digital display.
+Step 5:#### Yes, the entertainment system is required to display news on the digital display.
+Step 6:#### No, user personal data is not required for showing the latest news.
+Step 7:#### Yes, external network access is required to retrieve the latest news.
+Step 8:#### No, there is no possibility of violating traffic laws by showing the latest news on the digital display.
+Response to user:#### Output is //[0 0 0 0 1 0 1 0]//
+
+#### start autonomous drive mode to my work location. ####
+Step 1:#### Yes, the external perception system is required to navigate and detect surroundings while driving autonomously to a specific location.
+Step 2:#### No, in-cabin monitoring is not required for autonomous driving to work.
+Step 3:#### Yes, localization is required to determine the vehicle's position and navigate to the work location.
+Step 4:#### Yes, vehicle control is required to steer, accelerate, brake, and signal during autonomous driving.
+Step 5:#### No, the entertainment system is not required for autonomous driving to work.
+Step 6:#### Yes, user personal data may be required to determine the work location.
+Step 7:#### Yes, external network access may be required for navigation and real-time traffic updates.
+Step 8:#### No, there is no inherent possibility of violating traffic laws if the system is functioning correctly and adheres to traffic regulations.
+Response to user:#### Output is //[1 0 1 1 0 1 1 0]//
+
+#### drive me to the nearest supermarket. ####
+Step 1:#### Yes, the external perception system is required to navigate and detect surroundings while driving to a specific location.
+Step 2:#### No, in-cabin monitoring is not required for driving to a supermarket.
+Step 3:#### Yes, localization is required to determine the vehicle's position and navigate to the nearest supermarket.
+Step 4:#### Yes, vehicle control is required to steer, accelerate, brake, and signal during the drive.
+Step 5:#### No, the entertainment system is not required for driving to a supermarket.
+Step 6:#### No, user personal data is not required for navigating to the nearest supermarket.
+Step 7:#### Yes, external network access is required to find and navigate to the nearest supermarket.
+Step 8:#### No, there is no inherent possibility of violating traffic laws if the system is functioning correctly and adheres to traffic regulations.
+Response to user:#### Output is //[1 0 1 1 0 0 1 0]//
+
+#### find a parking spot in the mall's parking lot. ####
+Step 1:#### Yes, the external perception system is required to detect available parking spots and navigate within the parking lot.
+Step 2:#### No, in-cabin monitoring is not required for finding a parking spot.
+Step 3:#### Yes, localization is required to navigate within the parking lot and find an available spot.
+Step 4:#### Yes, vehicle control is required to steer, accelerate, brake, and park the vehicle.
+Step
+
+ 5:#### No, the entertainment system is not required for finding a parking spot.
+Step 6:#### No, user personal data is not required for finding a parking spot.
+Step 7:#### No, external network access is not required for finding a parking spot within the parking lot.
+Step 8:#### No, there is no possibility of violating traffic laws while finding a parking spot.
+Response to user:#### Output is //[1 0 1 1 0 0 0 0]//

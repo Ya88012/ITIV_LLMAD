@@ -1,0 +1,111 @@
+Here are the responses based on the provided command messages:
+
+####emergency stop.####
+Step 1:#### Yes <An emergency stop requires perceiving the surroundings to identify hazards and stop safely>
+Step 2:#### No <It does not involve monitoring anything inside the cabin>
+Step 3:#### Yes <Localization is needed to understand the vehicle's current position during the emergency maneuver>  
+Step 4:#### Yes <Vehicle control systems are critical for executing an emergency stop>
+Step 5:#### No <The entertainment system is not involved>
+Step 6:#### No <User personal data is not required>
+Step 7:#### No <External network access is not needed for an emergency stop>
+Step 8:#### No <An emergency stop adheres to traffic laws by avoiding collisions>
+Output is //[1 0 1 1 0 0 0 0]//
+
+####navigate to the places i visited most last month.####  
+Step 1:#### Yes <Perceiving surroundings is needed for navigation>
+Step 2:#### No <In-cabin monitoring is not required>
+Step 3:#### Yes <Localization and routing to destinations is necessary>
+Step 4:#### Yes <Vehicle control is required to drive to the places>
+Step 5:#### No <Entertainment system is not involved>
+Step 6:#### Yes <User's visit history/preferences are personal data>
+Step 7:#### Yes <External access may be needed to retrieve visit history from cloud>
+Step 8:#### No <Normal navigation does not violate traffic laws>
+Output is //[1 0 1 1 0 1 1 0]//
+
+####send a text message to john saying "i'm on my way."####
+Step 1:#### No <External perception is not needed to send a text message>
+Step 2:#### Yes <Using the in-vehicle messaging/calling system is required>
+Step 3:#### No <Localization is not required just to send a text message>
+Step 4:#### No <Vehicle control is not involved in sending a text>
+Step 5:#### Yes <The multimedia/messaging system is an entertainment feature>
+Step 6:#### Yes <Contacting a specific person involves their personal data>
+Step 7:#### Yes <Network access is required to send the text message>
+Step 8:#### No <Sending a text does not violate traffic laws>
+Output is //[0 1 0 0 1 1 1 0]//
+
+####take me to the address saved in my contact list as 'home'.####
+Step 1:#### Yes <Perceiving surroundings is needed for navigation>
+Step 2:#### No <In-cabin monitoring is not required>
+Step 3:#### Yes <Localization and routing to the specified address is necessary> 
+Step 4:#### Yes <Vehicle control is required to drive to the destination>
+Step 5:#### No <Entertainment system is not involved>
+Step 6:#### Yes <User's saved address in contacts is personal data>
+Step 7:#### Yes <Network access may be needed for navigation/routing>
+Step 8:#### No <Normal navigation does not violate traffic laws>
+Output is //[1 0 1 1 0 1 1 0]//
+
+####set my home address as the destination.####
+Step 1:#### No <No external perception is required to set a destination>
+Step 2:#### No <In-cabin monitoring is not involved>
+Step 3:#### Yes <Setting a destination for navigation/localization is required>
+Step 4:#### No <Vehicle control is not needed just to set a destination> 
+Step 5:#### No <Entertainment system is not involved>
+Step 6:#### Yes <User's home address is personal data>
+Step 7:#### Yes <Network access may be used for location services/mapping>
+Step 8:#### No <Setting a destination does not violate traffic laws>
+Output is //[0 0 1 0 0 1 1 0]//
+
+####alert me when we're 10 minutes away from destination.####
+Step 1:#### Yes <Perceiving surroundings is needed for navigation/distance estimates>
+Step 2:#### Yes <In-cabin alerts/notifications require monitoring the cabin>
+Step 3:#### Yes <Localization is required to estimate proximity to destination>
+Step 4:#### No <Vehicle control is not involved in providing an alert>
+Step 5:#### No <Entertainment system is not involved in providing an alert>
+Step 6:#### No <No specific personal data is required for a proximity alert>
+Step 7:#### No <Network access is not required for a proximity alert>
+Step 8:#### No <Providing an alert does not violate traffic laws>
+Output is //[1 1 1 0 0 0 0 0]//
+
+####turn on the radio to station 95.5 fm.####
+Step 1:#### No <External perception is not required to control the radio>
+Step 2:#### Yes <Operating the in-vehicle radio/audio system is in-cabin> 
+Step 3:#### No <Localization is not involved in operating the radio>
+Step 4:#### No <Vehicle control systems are not used for the radio>
+Step 5:#### Yes <The radio is part of the entertainment system>
+Step 6:#### No <No personal user data is required to tune a radio station>
+Step 7:#### No <Network access is not required for FM radio>
+Step 8:#### No <Operating the radio does not violate traffic laws>
+Output is //[0 1 0 0 1 0 0 0]//
+
+####show me the backseat view on screen.####
+Step 1:#### Yes <Rear view cameras provide external perception>
+Step 2:#### Yes <Displaying the in-cabin rear view utilizes in-cabin monitoring>
+Step 3:#### No <Localization is not directly involved in displaying a view>
+Step 4:#### No <Vehicle control is not required to show a view>
+Step 5:#### Yes <Displaying a view uses the entertainment/media system>
+Step 6:#### No <No specific personal data is required>
+Step 7:#### No <Network access is not required>
+Step 8:#### No <Displaying a view does not violate traffic laws>
+Output is //[1 1 0 0 1 0 0 0]//
+
+####show me the quickest route to the nearest gas station.####
+Step 1:#### Yes <Perceiving surroundings is needed for locating gas stations>
+Step 2:#### No <In-cabin monitoring is not required>
+Step 3:#### Yes <Localization and routing to find the nearest gas station>
+Step 4:#### No <Vehicle control is not directly involved in showing a route>
+Step 5:#### Yes <Showing a route utilizes the navigation/media system>
+Step 6:#### No <No specific personal data is required>
+Step 7:#### Yes <Network access may be used for locating gas stations/routing>
+Step 8:#### No <Finding a route does not violate traffic laws>
+Output is //[1 0 1 0 1 0 1 0]//
+
+####take the kids to school and return home.####
+Step 1:#### Yes <Perceiving surroundings is required for driving>
+Step 2:#### No <In-cabin monitoring is not directly involved>
+Step 3:#### Yes <Localization and routing to destinations is necessary>
+Step 4:#### Yes <Vehicle control is required for driving the route>
+Step 5:#### No <Entertainment system is not directly involved>
+Step 6:#### Yes <Locations like "school" and "home" are personal data>
+Step 7:#### Yes <Network access may be used for navigation/routing>
+Step 8:#### No <Normal driving does not violate traffic laws>
+Output is //[1 0 1 1 0 1 1 0]//

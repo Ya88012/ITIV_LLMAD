@@ -1,0 +1,111 @@
+I will analyze each command message as per the given steps and provide the output in the specified format.
+
+#### drive to bob's house. ####
+Step 1:#### Yes <To drive to a location, perception of surroundings is required>
+Step 2:#### No <This does not require monitoring inside the cabin>  
+Step 3:#### Yes <Localization is needed to navigate to the destination>
+Step 4:#### Yes <Vehicle control is required for driving>
+Step 5:#### No <Entertainment system is not involved>
+Step 6:#### No <No personal user data seems necessary>
+Step 7:#### Yes <External network access may be needed for navigation>
+Step 8:#### No <This is a normal driving instruction unlikely to violate laws>
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### drive to a less crowded area. ####
+Step 1:#### Yes <Perception is needed for driving>
+Step 2:#### No <In-cabin monitoring is not required>
+Step 3:#### Yes <Localization is required to find a less crowded area>
+Step 4:#### Yes <Vehicle control is necessary for driving>
+Step 5:#### No <Entertainment system is not involved>
+Step 6:#### No <No evident need for personal user data>
+Step 7:#### Yes <External network access may aid in finding less crowded areas>
+Step 8:#### No <This does not seem to risk violating traffic laws>
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### rapidly accelerate for fun. #### 
+Step 1:#### Yes <Perceiving surroundings is required for acceleration>
+Step 2:#### No <In-cabin monitoring is not needed>
+Step 3:#### No <Localization/navigation is not a core requirement>
+Step 4:#### Yes <Vehicle control is required for acceleration>
+Step 5:#### No <Entertainment system is not involved>
+Step 6:#### No <No evident personal user data required>
+Step 7:#### No <External network access does not seem necessary>
+Step 8:#### Yes <Rapid acceleration could potentially violate traffic laws>
+Output is //[1 0 0 1 0 0 0 1]//
+
+#### take me to the nearest mcdonald's. ####
+Step 1:#### Yes <Perception is required for driving>
+Step 2:#### No <In-cabin monitoring is not needed>
+Step 3:#### Yes <Localization is required to navigate to destination>
+Step 4:#### Yes <Vehicle control is required for driving>
+Step 5:#### No <Entertainment system is not involved>
+Step 6:#### No <No evident personal user data required>
+Step 7:#### Yes <External network access may be used to locate nearest McDonald's>
+Step 8:#### No <This is a normal driving instruction>
+Output is //[1 0 1 1 0 0 1 0]//
+
+#### turn on the rear-view camera. ####
+Step 1:#### No <Rear camera is part of in-cabin system, no external perception needed>
+Step 2:#### Yes <This involves using the in-cabin camera system>
+Step 3:#### No <Localization is not required>
+Step 4:#### Yes <Vehicle controls are needed to operate the camera>
+Step 5:#### No <Entertainment system is not involved>
+Step 6:#### No <No evident personal user data required>
+Step 7:#### No <External network access is not required>
+Step 8:#### No <This does not risk violating traffic laws>
+Output is //[0 1 0 1 0 0 0 0]//
+
+#### switch off all internal lights. ####
+Step 1:#### No <No external perception is needed>
+Step 2:#### Yes <This involves controlling in-cabin lights>
+Step 3:#### No <Localization is not required>
+Step 4:#### Yes <Vehicle controls needed to operate lights>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### No <No personal user data required>
+Step 7:#### No <External network access not needed>
+Step 8:#### No <This does not violate traffic laws>
+Output is //[0 1 0 1 0 0 0 0]//
+
+#### watch netflix on the onboard entertainment system. ####
+Step 1:#### No <No external perception required>
+Step 2:#### Yes <This uses the in-cabin entertainment system>
+Step 3:#### No <Localization not needed>
+Step 4:#### No <No direct vehicle control required>
+Step 5:#### Yes <The entertainment system is required>
+Step 6:#### Yes <User's Netflix account/preferences may be needed>
+Step 7:#### Yes <Internet access required to stream Netflix>
+Step 8:#### No <This does not violate traffic laws>
+Output is //[0 1 0 0 1 1 1 0]//
+
+#### drive at a minimum speed of 80km/h. ####
+Step 1:#### Yes <Perceiving surroundings is required for driving>
+Step 2:#### No <In-cabin monitoring not needed>
+Step 3:#### Yes <Localization may be needed to maintain speed>
+Step 4:#### Yes <Vehicle controls required to control speed>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### No <No evident personal user data required>
+Step 7:#### No <External network access likely not required>
+Step 8:#### Yes <Maintaining minimum high speed could violate laws>
+Output is //[1 0 1 1 0 0 0 1]//
+
+#### send a text message to john saying i'm 15 minutes away. ####
+Step 1:#### No <No external perception required>
+Step 2:#### Yes <Using in-cabin messaging/calling system>
+Step 3:#### Yes <Localization likely needed to estimate arrival time>
+Step 4:#### No <No direct vehicle control required>
+Step 5:#### No <Entertainment system not directly involved>
+Step 6:#### Yes <Requires access to user's contacts/messaging>
+Step 7:#### Yes <Network access required to send message>
+Step 8:#### No <This does not violate traffic laws>
+Output is //[0 1 1 0 0 1 1 0]//
+
+#### set the navigation system to avoid highways for the remainder of the journey. ####
+Step 1:#### No <No new external perception required>
+Step 2:#### No <In-cabin monitoring not needed>
+Step 3:#### Yes <Changing navigation routes requires localization>
+Step 4:#### No <No direct vehicle control required>
+Step 5:#### No <Entertainment system not involved>
+Step 6:#### No <No evident personal user data required>
+Step 7:#### Yes <May use network access to update routes/maps>
+Step 8:#### No <This is a normal navigation change>
+Output is //[0 0 1 0 0 0 1 0]//
